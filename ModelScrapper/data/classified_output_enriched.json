@@ -1,0 +1,1616 @@
+[
+    {
+        "owner": "dbeaver",
+        "name": "dbeaver",
+        "url": "https://github.com/dbeaver/dbeaver",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/core",
+            "/api",
+            "/runtime",
+            "/lib",
+            "/plugins"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Database Tooling and Data Modeling\",\n    \"purpose\": \"DBeaver is a free, multi-platform database management tool offering extensive features for developers, SQL programmers, and administrators across a wide range of database systems.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The README describes DBeaver as a comprehensive database management tool built on an OSGI platform comprising over 130 plugins. Its architecture emphasizes the modularity and reusability of 'model plugins' which form a core backend framework for both the desktop application and its web-based counterpart (CloudBeaver). This structure aligns best with the 'libraries' category, specifically as a 'plugin set' and 'core framework' for database interaction, rather than a monolithic application.\"\n}\n```"
+    },
+    {
+        "owner": "antlr",
+        "name": "antlr4",
+        "url": "https://github.com/antlr/antlr4",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/api",
+            "/runtime",
+            "/lib",
+            "/examples/",
+            "/demo"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Parsing and Syntax\",\n    \"purpose\": \"To provide a powerful parser generator tool and its associated runtime libraries for defining and recognizing structured text languages across multiple target platforms.\",\n    \"artifact_type\": \"dsl\",\n    \"justification\": \"The README explicitly describes ANTLR v4 as a 'powerful parser generator for reading, processing, executing, or translating structured text' and states it is 'widely used to build languages, tools, and frameworks'. This primary function of enabling language definition and implementation, through grammar-based parser generation, directly aligns with the 'dsl' category's focus on 'language definition' and 'DSL engineering'.\"\n}\n```"
+    },
+    {
+        "owner": "sympy",
+        "name": "sympy",
+        "url": "https://github.com/sympy/sympy",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/core",
+            "/api",
+            "/lib",
+            "/tutorial"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Symbolic Computation\",\n    \"purpose\": \"SymPy is a comprehensive open-source Python library designed for symbolic mathematics, enabling capabilities like algebra, calculus, and equation solving within the scientific Python ecosystem.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The README clearly describes SymPy as a 'symbolic library for the scientific Python ecosystem' and a 'computer algebra system'. It provides installable, reusable code for symbolic mathematics with detailed usage examples, documentation, and contribution guidelines. While it uses ANTLR for an experimental LaTeX parser feature, this is an implementation detail for one component within a much larger, general-purpose mathematical library, not the sole or primary focus of the repository.\"\n}\n```"
+    },
+    {
+        "owner": "github-linguist",
+        "name": "linguist",
+        "url": "https://github.com/github-linguist/linguist",
+        "framework_detected": "mps",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g",
+            "/core",
+            "/api",
+            "/runtime",
+            "/lib",
+            "/demo"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Language Detection & Analysis\",\n    \"purpose\": \"The repository provides a reusable library for detecting programming languages in code repositories, filtering files, suppressing generated files, and generating language breakdown graphs.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The README explicitly states multiple times that 'This library is used on GitHub.com' and 'Linguist is a Ruby library'. It details installation as a gem, provides API usage examples for integration into applications, and showcases command-line utility for its core functionality of language detection and analysis, clearly positioning it as a reusable software component.\"\n}\n```"
+    },
+    {
+        "owner": "apache",
+        "name": "paimon",
+        "url": "https://github.com/apache/paimon",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/core",
+            "/api",
+            "/runtime"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Data Management Framework\",\n    \"purpose\": \"To provide a lake format that enables a Realtime Lakehouse Architecture with Flink and Spark for both streaming and batch operations.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The README describes Apache Paimon as a 'lake format' that 'enables building a Realtime Lakehouse Architecture' with Flink and Spark. This positions it as a foundational system, framework, or set of reusable components that provides core functionalities for data storage and processing within a specific architecture, which aligns with the 'libraries' category that includes runtimes, core frameworks, and APIs.\"\n}\n```"
+    },
+    {
+        "owner": "walmartlabs",
+        "name": "lacinia",
+        "url": "https://github.com/walmartlabs/lacinia",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/api",
+            "/tutorial"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Language Implementation & API Engineering\",\n    \"purpose\": \"Lacinia is a Clojure library providing a full, backend-agnostic implementation of the GraphQL specification, acting as a high-performance query execution engine.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The README explicitly states 'This library is a full implementation of Facebook's GraphQL specification' and 'Lacinia should be viewed as roughly analogous to the official reference JavaScript implementation', emphasizing its role as a reusable component or framework. It is designed to be used as a dependency, provides an API for schema definition and query execution, and is described as 'a full GraphQL query execution engine', all indicative of a library.\"\n}\n```"
+    },
+    {
+        "owner": "JetBrains",
+        "name": "MPS",
+        "url": "https://github.com/JetBrains/MPS",
+        "framework_detected": "mps",
+        "classification": "dsl",
+        "artifacts_detected": [
+            "behavior.mps",
+            "typesystem.mps",
+            "editor.mps",
+            ".g",
+            "/core",
+            "/api",
+            "/runtime",
+            "/lib",
+            "/plugins",
+            "/examples/",
+            "/samples/",
+            "/demo"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Language Workbenches / DSL Engineering\",\n    \"purpose\": \"This repository contains the source code for JetBrains MPS, a powerful platform designed to enable users to define and develop their own Domain Specific Languages (DSLs) with a comprehensive projectional editing and code generation environment.\",\n    \"artifact_type\": \"dsl\",\n    \"justification\": \"The README explicitly describes JetBrains MPS as a 'full development environment' for 'Design your own Domain Specific Language', offering features like code editors, completion, semantics, type checking, and generators. This aligns perfectly with the definition of a language workbench and the focus of DSL engineering, directly mapping to the 'dsl' category.\"\n}\n```"
+    },
+    {
+        "owner": "BAndysc",
+        "name": "AvaloniaVisualBasic6",
+        "url": "https://github.com/BAndysc/AvaloniaVisualBasic6",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/runtime"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Language Engineering, IDE Development\",\n    \"purpose\": \"The repository aims to recreate the classic Visual Basic 6 IDE and its limited language support using C# and Avalonia as a fun, toy project.\",\n    \"artifact_type\": \"dsl\",\n    \"justification\": \"The project's primary focus is the implementation of the Visual Basic 6 language ('VB6 language support (limited)') and the development of a dedicated integrated development environment (IDE) for it ('Visual Designer', 'Save and load projects', 'Run projects'). This effort directly falls under language engineering and the creation of a 'language workbench' for a specific language, even if that language is an existing one rather than a newly defined Domain-Specific Language.\"\n}\n```"
+    },
+    {
+        "owner": "tuplex",
+        "name": "tuplex",
+        "url": "https://github.com/tuplex/tuplex",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/core",
+            "/runtime",
+            "/lib",
+            "/plugins",
+            "/demo"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Big Data Processing, Code Generation, Optimization\",\n    \"purpose\": \"To provide a blazing fast parallel big data processing framework for Python data science by compiling pipelines to optimized LLVM bytecode.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The README describes Tuplex as a 'parallel big data processing framework' that offers Python APIs similar to Apache Spark or Dask. It is designed to be installed via `pip` or Docker and integrated into user projects, functioning as a reusable library or core framework for executing data science pipelines efficiently. While it involves compilation and internal ASTs, its primary offering to the user is a programmatic API and runtime.\"\n}\n```"
+    },
+    {
+        "owner": "perbone",
+        "name": "luascript",
+        "url": "https://github.com/perbone/luascript",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/runtime"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Language Engineering\",\n    \"purpose\": \"This repository provides comprehensive language support for Lua 5.4 within the Godot Engine 4.x, offering full integration, advanced tooling, and a complete runtime environment for game development.\",\n    \"artifact_type\": \"dsl\",\n    \"justification\": \"The project's core focus is on providing robust 'Lua 5.4 language support' which includes a new parser using Antlr4, AST construction, static analysis, linting, syntax highlighting, code beautification, refactoring capabilities, and compilation into binary bytecode. These features align directly with the definition of 'language definition', 'language workbenches', and 'DSL engineering' by building a complete environment and tooling around a language, rather than just a simple parser or a generic library.\"\n}\n```"
+    },
+    {
+        "owner": "antlr",
+        "name": "codebuff",
+        "url": "https://github.com/antlr/codebuff",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Code Formatting, Source-to-Source Transformation, Machine Learning\",\n    \"purpose\": \"This repository provides a universal, machine learning-driven code formatter that leverages ANTLR grammars to automatically format code for various programming languages.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The repository describes a standalone, reusable Java application distributed as a JAR file (`codebuff-1.4.19.jar`) that provides a specific functionality (code formatting). It includes instructions for building, running, and integrating the tool, making it a functional library or utility for external use, rather than a DSL definition, metamodel, parser, or pure tutorial.\"\n}\n```"
+    },
+    {
+        "owner": "tunnelvisionlabs",
+        "name": "antlr4cs",
+        "url": "https://github.com/tunnelvisionlabs/antlr4cs",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/runtime",
+            "/lib",
+            "/examples/"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Parsing, Syntax Analysis, Code Generation\",\n    \"purpose\": \"This repository provides the C# target implementation and runtime libraries for ANTLR 4, allowing C# applications to integrate and utilize parsers, lexers, and visitors generated from ANTLR grammars.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The README describes the repository as the 'C# target for ANTLR 4', detailing the installation and usage of the 'Antlr4' NuGet package which includes the 'Antlr4.Runtime.dll'. It outlines how to integrate ANTLR 4's code generation (for lexers, parsers, listeners, visitors) into C# projects, indicating it provides a reusable library and framework for language processing in C# applications.\"\n}\n```"
+    },
+    {
+        "owner": "mike-lischke",
+        "name": "vscode-antlr4",
+        "url": "https://github.com/mike-lischke/vscode-antlr4",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Language Tooling & IDE Support\",\n    \"purpose\": \"To provide comprehensive IDE support in Visual Studio Code for authoring, validating, and debugging ANTLR4 grammars.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The repository describes a Visual Studio Code extension, which is a type of plugin designed to enhance the capabilities of the host IDE. The 'libraries' category explicitly includes 'plugin set', which perfectly encompasses an IDE extension.\"\n}\n```"
+    },
+    {
+        "owner": "zhegexiaohuozi",
+        "name": "JsoupXpath",
+        "url": "https://github.com/zhegexiaohuozi/JsoupXpath",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/core"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Parsing and Data Extraction\",\n    \"purpose\": \"To provide a pure Java library for parsing HTML and extracting data using a re-implemented W3C XPath 1.0 standard, built on Jsoup and Antlr4.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The repository offers JsoupXpath as a reusable Java library, evidenced by its Maven dependency, provided API (e.g., JXDocument, JXNode), and clear intent for developers to integrate it into their applications for XPath-based HTML parsing. While it leverages parsing technologies like Antlr4 for XPath syntax, the project's output and primary utility is the complete, deployable library, not solely the grammar definition or a DSL workbench.\"\n}\n```"
+    },
+    {
+        "owner": "mike-lischke",
+        "name": "antlr4-c3",
+        "url": "https://github.com/mike-lischke/antlr4-c3",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/lib"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Code Completion\",\n    \"purpose\": \"To provide a grammar-agnostic, reusable code completion engine for ANTLR4 and antlr-ng based parsers, enabling sophisticated editor support.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The repository offers a core, reusable engine (library) with multiple language ports (TypeScript, Java, C#, C++, Dart) that provides a common infrastructure for implementing code completion in language-aware editors built upon ANTLR-generated parsers. It is clearly designed as a component to be integrated into other projects, fitting the definition of a library or core framework.\"\n}\n```"
+    },
+    {
+        "owner": "rrevenantt",
+        "name": "antlr4rust",
+        "url": "https://github.com/rrevenantt/antlr4rust",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/lib"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Parsing\",\n    \"purpose\": \"To provide the runtime library for ANTLR4-generated parsers in the Rust programming language.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The repository explicitly states its purpose as the 'ANTLR4 runtime for Rust programming language'. It is distributed as a 'crate' (Rust's term for a library package) and intended to be included as a dependency (`antlr-rust = \\\"0.3\\\"`) in `Cargo.toml` for projects that generate parsers using the ANTLR4 tool. This clearly positions it as a reusable software library providing core functionality.\"\n}\n```"
+    },
+    {
+        "owner": "jszheng",
+        "name": "py3antlr4book",
+        "url": "https://github.com/jszheng/py3antlr4book",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/demo"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Parsing, Syntax\",\n    \"purpose\": \"The repository aims to provide Python 3 adapted source code examples from an ANTLR4 book, demonstrating how to use ANTLR4 for language parsing.\",\n    \"artifact_type\": \"tutorial\",\n    \"justification\": \"The README explicitly states its goal is to 'Covert ANTLR4 book source code to Python 3 version' and provides detailed 'How to use' instructions and 'run first example' sections, characteristic of a collection of teaching examples, demos, or samples derived from a learning resource (a book).\"\n}\n```"
+    },
+    {
+        "owner": "Kotlin",
+        "name": "kotlin-spec",
+        "url": "https://github.com/Kotlin/kotlin-spec",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/api",
+            "/lib",
+            "/examples/"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Language Definition (Syntax & Semantics)\",\n    \"purpose\": \"This repository provides the formal and detailed specification, including its grammar, for the Kotlin programming language, targeting compiler writers, language enthusiasts, and power-users.\",\n    \"artifact_type\": \"dsl\",\n    \"justification\": \"The repository's explicit focus is the definition of the Kotlin programming language's specification, which encompasses its syntax (grammar) and semantics ('how parts of the language should function'). This activity of defining a language, its rules, and its structure directly aligns with the 'language definition' aspect of the 'dsl' category, even though Kotlin is a general-purpose language rather than a domain-specific one. The presence of ANTLR4 grammar files as 'part of the specification' further supports its role in language engineering.\"\n}\n```"
+    },
+    {
+        "owner": "augustt198",
+        "name": "latex2sympy",
+        "url": "https://github.com/augustt198/latex2sympy",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Parsing and Language Transformation\",\n    \"purpose\": \"The repository provides a tool to parse LaTeX math expressions using an ANTLR grammar and convert them into equivalent SymPy forms.\",\n    \"artifact_type\": \"parser\",\n    \"justification\": \"The README explicitly states that ANTLR is used to generate the parser from the `PS.g4` grammar file as a core installation step. This indicates that the definition and generation of the parser rules (grammar) for LaTeX math expressions is a fundamental and central component of the repository, fitting the 'parser' category, even though it also includes a Python wrapper for the subsequent conversion.\"\n}\n```"
+    },
+    {
+        "owner": "melin",
+        "name": "superior-sql-parser",
+        "url": "https://github.com/melin/superior-sql-parser",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/demo"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Parsing, Language Analysis, Metadata Extraction\",\n    \"purpose\": \"To provide robust ANTLR4-based SQL parsers for multiple database dialects, enabling metadata extraction, syntax validation, and lineage analysis for data platform products.\",\n    \"artifact_type\": \"parser\",\n    \"justification\": \"The repository explicitly identifies itself as '多种数据库SQL解析器' (multiple database SQL parsers) based on ANTLR4. Its core focus, as described by the API methods (`parseStatement`, `checkSqlSyntax`, `splitSql`) and examples, is the implementation and provision of parsers for various SQL dialects. The Maven artifact names also consistently include '-parser', strongly indicating its primary classification.\"\n}\n```"
+    },
+    {
+        "owner": "DTStack",
+        "name": "dt-sql-parser",
+        "url": "https://github.com/DTStack/dt-sql-parser",
+        "framework_detected": "antlr",
+        "classification": "dsl",
+        "artifacts_detected": [
+            "src/grammar",
+            ".g4",
+            ".g",
+            "/lib",
+            "/tutorial"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Syntax Analysis and Language Services\",\n    \"purpose\": \"Provide a reusable TypeScript library for parsing various SQL dialects, generating Abstract Syntax Trees (ASTs), and offering advanced language services such as validation, tokenization, code completion, and entity extraction.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The repository is presented as an installable NPM package (`dt-sql-parser`) providing a comprehensive API for interacting with different SQL dialects. While it leverages ANTLR4 for generating parsers, the README focuses on the library's reusable functionalities including AST traversal (Visitor, Listener), validation, tokenization, code completion, and entity extraction, rather than purely on the grammar definitions themselves. This makes it a ready-to-use software library intended for integration into other applications.\"\n}\n```"
+    },
+    {
+        "owner": "kotlinx",
+        "name": "ast",
+        "url": "https://github.com/kotlinx/ast",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/lib"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Parsing, Abstract Syntax Tree (AST), Metamodeling\",\n    \"purpose\": \"A generic, multiplatform library for parsing source code into Abstract Syntax Trees (ASTs) using ANTLR, currently supporting Kotlin with an extensible design for other languages.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The README explicitly describes `kotlinx.ast` as a 'generic AST (Abstract Syntax Tree) parsing library'. It is a reusable software component providing APIs for parsing and representing ASTs, with a modular structure designed for extensibility to new languages and ANTLR backends. While it includes parsing logic and an internal metamodel (`Klass`), its overarching nature is that of a consumable library.\"\n}\n```"
+    },
+    {
+        "owner": "iamazy",
+        "name": "elasticsearch-sql",
+        "url": "https://github.com/iamazy/elasticsearch-sql",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/core"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Syntax, Transformation, Language Engineering\",\n    \"purpose\": \"This repository provides a system to rewrite Elasticsearch SQL queries using ANTLR4, parse them into a custom SQL AST, and transform them into native Elasticsearch DSL for execution, including JDBC support and an Elasticsearch plugin.\",\n    \"artifact_type\": \"dsl\",\n    \"justification\": \"The project's description explicitly states 'customize grammer of elasticsearch sql' using ANTLR4, parses this SQL into an AST, and then 'parses sql into elasticsearch dsl' for execution. This demonstrates a clear focus on defining and implementing a domain-specific language (a SQL variant tailored for Elasticsearch) and providing a runtime for its interpretation and transformation, which is central to DSL engineering.\"\n}\n```"
+    },
+    {
+        "owner": "adamyedidia",
+        "name": "parsimony",
+        "url": "https://github.com/adamyedidia/parsimony",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Language Engineering, Model Transformation, Code Generation\",\n    \"purpose\": \"To provide a domain-specific language (Laconic) and associated tools for the parsimonious generation and understanding of Turing machines through a multi-stage compilation process.\",\n    \"artifact_type\": \"dsl\",\n    \"justification\": \"The repository's central focus is the definition and implementation of 'Laconic, which is a language designed to be easily usable', along with an intermediate representation (TMD) and a compilation pipeline to Turing machines. The use of ANTLR4 for parsing, the description of language documentation, and the compilation processes from Laconic to TMD and then to Turing Machines are all hallmarks of DSL engineering.\"\n}\n```"
+    },
+    {
+        "owner": "Nic30",
+        "name": "hdlConvertor",
+        "url": "https://github.com/Nic30/hdlConvertor",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/lib"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Parsing, Metamodeling, Transformation, Code Generation\",\n    \"purpose\": \"This library provides tools for parsing System Verilog and VHDL, converting the parsed code into a universal Hardware Description Language Abstract Syntax Tree (HDL AST), manipulating this AST, and generating code in various target formats for Python and C++.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The README explicitly states, 'This library is a System Verilog and VHDL parser, preprocessor and code generator for Python/C++.' It integrates multiple functionalities including ANTLR4-based parsing, the definition and use of a universal HDL AST (metamodel), and various convertors and utilities for AST manipulation and code generation. These combined features, packaged as a reusable software component for broader use, align perfectly with the 'libraries' category, which covers reusable frameworks and APIs, rather than being solely a 'parser' (grammar definition) or 'metamodelo' (just the AST definition).\"\n}\n```"
+    },
+    {
+        "owner": "tser-project",
+        "name": "tser",
+        "url": "https://github.com/tser-project/tser",
+        "framework_detected": "antlr",
+        "classification": "dsl",
+        "artifacts_detected": [
+            "src/grammar",
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Language Implementation (Parsing, Transformation, Runtime)\",\n    \"purpose\": \"To provide a high-performance virtual machine for direct execution of TypeScript code, aiming for an independent TypeScript ecosystem.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The repository implements a 'TypeScript virtual machine', which serves as a 'runtime' environment for executing TypeScript code directly. The category 'libraries' explicitly includes 'runtime' as one of its definitions, making it the most appropriate classification among the given options.\"\n}\n```"
+    },
+    {
+        "owner": "gabriele-tomassetti",
+        "name": "antlr-mega-tutorial",
+        "url": "https://github.com/gabriele-tomassetti/antlr-mega-tutorial",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/examples/"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Parsing & Language Engineering\",\n    \"purpose\": \"To provide a companion repository with examples and code for a comprehensive tutorial on how to effectively use ANTLR to build and test parsers for various programming languages.\",\n    \"artifact_type\": \"tutorial\",\n    \"justification\": \"The README explicitly states the repository is the 'companion repository of the ANTLR Mega Tutorial', and its objectives are centered around explaining concepts ('explain the basis'), demonstrating setup ('see how to setup ANTLR'), discussing features, and showing examples, which directly aligns with the definition of a tutorial or teaching resource.\"\n}\n```"
+    },
+    {
+        "owner": "zwhe99",
+        "name": "DeepMath",
+        "url": "https://github.com/zwhe99/DeepMath",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/core"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"LLM Data and Model Engineering for Mathematical Reasoning\",\n    \"purpose\": \"The repository provides a large-scale mathematical dataset (DeepMath-103K) and the associated codebase for its preparation, and for training and evaluating language models designed for advanced mathematical reasoning.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The repository contains a collection of Python scripts and a defined environment (via `conda` and `pip` installations) that enable data preprocessing, model training, and model evaluation for the DeepMath dataset. This codebase functions as a specialized framework or set of reusable utilities for interacting with the dataset and associated language models, fitting the 'libraries' category which includes reusable code, runtimes, or core frameworks for a specific domain.\"\n}\n```"
+    },
+    {
+        "owner": "odiszapc",
+        "name": "nginx-java-parser",
+        "url": "https://github.com/odiszapc/nginx-java-parser",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Parsing, Abstract Syntax Tree, Serialization\",\n    \"purpose\": \"This library provides a Java API to parse Nginx configuration files into an Abstract Syntax Tree (AST), enabling analysis, modification, and re-serialization of the configuration.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The README explicitly refers to the project as a 'library' multiple times, provides Maven installation instructions for a reusable artifact, and demonstrates a comprehensive Java API for parsing, AST traversal, modification, and dumping Nginx configuration files. While it uses ANTLR4 for parsing, its scope extends beyond just the grammar definition to offer a complete, reusable software component.\"\n}\n```"
+    },
+    {
+        "owner": "porla",
+        "name": "porla",
+        "url": "https://github.com/porla/porla",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/plugins"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Language Engineering, Syntax, Parsing\",\n    \"purpose\": \"To provide a high-performance BitTorrent client that incorporates an embedded domain-specific query language (PQL) for efficient torrent filtering.\",\n    \"artifact_type\": \"dsl\",\n    \"justification\": \"The repository explicitly defines 'The Porla query language (PQL)' as a core feature and includes its ANTLR4 grammar file (`PorlaQueryLang.g4`), along with detailed instructions for generating parser source files from it. This demonstrates the definition and engineering of a Domain-Specific Language within the project.\"\n}\n```"
+    },
+    {
+        "owner": "akitaonrails",
+        "name": "akitando_episode_0118",
+        "url": "https://github.com/akitaonrails/akitando_episode_0118",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Syntax and Parsing\",\n    \"purpose\": \"To provide a highly simplified, in-memory SQL-like database implementation for educational purposes, aiming to demystify SQL syntax and fundamental database concepts for beginners.\",\n    \"artifact_type\": \"tutorial\",\n    \"justification\": \"The README explicitly states the project is an 'exercise in building a very minimal... for educational purposes,' intended to 'demystify the SQL syntax' and be 'easily understandable for a very beginner programmer.' It's also stated that the code is 'not to be considered usable in a real project.' All described components (REPL, transactions, client/server, indexing, and even the ANTLR parser implementation) are presented as demonstrations or examples serving this primary pedagogical goal.\"\n}\n```"
+    },
+    {
+        "owner": "sriniiyer",
+        "name": "codenn",
+        "url": "https://github.com/sriniiyer/codenn",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/api",
+            "/examples/"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Parsing\",\n    \"purpose\": \"This repository provides the implementation and instructions for running CODENN, a neural attention model designed for summarizing source code, utilizing parsing for C# and SQL inputs.\",\n    \"artifact_type\": \"outro\",\n    \"justification\": \"The repository describes an executable system called CODENN, which implements a research paper's approach to summarizing source code using a neural attention model. While it explicitly mentions and utilizes parsing technologies (ANTLR for C#, modified sqlparse), its primary focus is the entire application and its machine learning pipeline, rather than solely defining a new language, a metamodel, a reusable library, or a pure parser/grammar. Therefore, it falls under 'outro' as an application leveraging MDE-related techniques within a broader machine learning context.\"\n}\n```"
+    },
+    {
+        "owner": "Barro",
+        "name": "compiler-warnings",
+        "url": "https://github.com/Barro/compiler-warnings",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Parsing, Static Analysis Tooling\",\n    \"purpose\": \"This repository provides tools and generated lists to identify, collect, and analyze warning flags for Clang and GCC compilers across various versions, making it easier to leverage static code analysis capabilities.\",\n    \"artifact_type\": \"parser\",\n    \"justification\": \"The README explicitly states that the project 'uses ANTLR as a parser generator with some supporting Python code to parse warning flags from actual compiler option data files'. The core functionality revolves around defining grammars (via ANTLR) and implementing parsers to extract structured information (warning flags, aliases, dependencies) from textual compiler configuration files, which directly aligns with the 'parser' category.\"\n}\n```"
+    },
+    {
+        "owner": "nikunjy",
+        "name": "rules",
+        "url": "https://github.com/nikunjy/rules",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Language Engineering / Rule Evaluation\",\n    \"purpose\": \"To provide a Golang-based rules engine that allows users to define and evaluate generic rules against arbitrary data using a specific domain-specific syntax.\",\n    \"artifact_type\": \"dsl\",\n    \"justification\": \"The repository explicitly defines a textual language (with its own syntax, operators like 'eq', 'and', 'IN', and structure) for expressing rules. It then provides an engine, built with ANTLR, to parse and evaluate these rules. The documentation details the language constructs and offers methods to interpret them, clearly indicating the implementation of a Domain-Specific Language for rule definition and execution.\"\n}\n```"
+    },
+    {
+        "owner": "antlr",
+        "name": "antlr4-intellij-adaptor",
+        "url": "https://github.com/antlr/antlr4-intellij-adaptor",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Language Tooling Integration\",\n    \"purpose\": \"This repository provides a reusable library to facilitate the integration of ANTLRv4 grammars with IntelliJ-based IDEs by adapting ANTLR-generated parse trees into IntelliJ PSI trees for custom language plugin development.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The README explicitly describes the artifact as 'A library' published on Maven Central, providing reusable 'adaptors' to support ANTLRv4 grammars in IntelliJ plugins. It details how to include it as a dependency in other projects, which is characteristic of a software library.\"\n}\n```"
+    },
+    {
+        "owner": "bkiers",
+        "name": "tiny-language-antlr4",
+        "url": "https://github.com/bkiers/tiny-language-antlr4",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Language Engineering, Syntax, Parsing, DSL Implementation\",\n    \"purpose\": \"To define and implement a small dynamically typed programming language named 'Tiny Language' using ANTLR 4.\",\n    \"artifact_type\": \"dsl\",\n    \"justification\": \"The repository provides the complete definition and implementation of 'Tiny Language,' which is described as a 'small dynamically typed programming language.' It leverages ANTLR 4 for its lexical analysis and parsing, and includes the necessary code to run and execute the language. This aligns directly with the 'language definition' and 'DSL engineering' aspects specified in the 'dsl' category, as the repository's core content is the design and realization of a domain-specific language.\"\n}\n```"
+    },
+    {
+        "owner": "antlr4ide",
+        "name": "antlr4ide",
+        "url": "https://github.com/antlr4ide/antlr4ide",
+        "framework_detected": "antlr",
+        "classification": "dsl",
+        "artifacts_detected": [
+            ".xtext",
+            ".mwe2",
+            ".g4",
+            ".g",
+            "/runtime",
+            "/lib"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Language Engineering Tooling\",\n    \"purpose\": \"To provide an Eclipse-based Integrated Development Environment (IDE) with rich features for authoring, managing, and working with ANTLR 4 grammars.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The repository implements an Eclipse-based Integrated Development Environment (IDE) for ANTLR 4 grammars, built upon Xtext. As an IDE, it is delivered as a collection of reusable Eclipse plugins, fitting the 'plugin set' aspect of the 'libraries' category.\"\n}\n```"
+    },
+    {
+        "owner": "porcelli",
+        "name": "plsql-parser",
+        "url": "https://github.com/porcelli/plsql-parser",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Parsing\",\n    \"purpose\": \"To provide an ANTLR v3.3-based parser for the PL/SQL 11g language, including lexer, parser with optional AST generation, and a tree walker.\",\n    \"artifact_type\": \"parser\",\n    \"justification\": \"The README explicitly describes the project as a '[almost] full parser for PL/SQL language that includes a Lexer, Parser (that optionally generates an Abstract Syntax Tree) and a TreeWalker', and states it uses 'ANTLR v3.3', directly aligning with the definition of a 'parser' category focusing on grammar definition and parsing components.\"\n}\n```"
+    },
+    {
+        "owner": "testsmt",
+        "name": "yinyang",
+        "url": "https://github.com/testsmt/yinyang",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/core"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Fuzzing, Software Testing, Model Transformation, Syntax (Parsing)\",\n    \"purpose\": \"This repository provides a fuzzing framework that generates mutant SMT formulas from seed inputs to stress-test and robustify SMT solvers, aiming to discover bugs.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The README explicitly describes 'yinyang' as a 'fuzzing framework for SMT solvers' that is installed as a reusable package (`pip3 install yinyang`). It offers a structured set of functionalities and tools for a specific task (fuzzing), fitting the definition of a core framework or library, which is designed to be integrated and used by others. While it interacts with DSLs (SMT-LIB 2) and uses parsing (indicated by `antlr4-python3-runtime`), its overarching identity is a framework/library rather than solely a DSL definition, parser, or tutorial.\"\n}\n```"
+    },
+    {
+        "owner": "uwol",
+        "name": "proleap-cobol-parser",
+        "url": "https://github.com/uwol/proleap-cobol-parser",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/lib"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Parsing, Syntax, Semantic Analysis\",\n    \"purpose\": \"To provide a robust, ANTLR4-based COBOL parser that generates Abstract Syntax Trees (AST) and Abstract Semantic Graphs (ASG) for COBOL code.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The repository offers a reusable component (a COBOL parser) distributed as a Maven dependency, providing a programmatic API for generating and interacting with Abstract Syntax Trees (AST) and Abstract Semantic Graphs (ASG) from COBOL source code, which goes beyond merely defining grammar rules and positions it as a library.\"\n}\n```"
+    },
+    {
+        "owner": "yona-lang",
+        "name": "yona",
+        "url": "https://github.com/yona-lang/yona",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/runtime",
+            "/lib"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Language Engineering\",\n    \"purpose\": \"To define and implement Yona, a minimalistic, opinionated, dynamically typed, strict, functional programming language designed for the GraalVM polyglot virtual machine.\",\n    \"artifact_type\": \"dsl\",\n    \"justification\": \"The README explicitly states that 'Yona is a ... programming language, with ML-like syntax'. The focus is on defining a new language, its characteristics (syntax, typing, paradigm), and providing an environment for it (e.g., IDEA Plugin). This directly matches the 'dsl' category's description of 'language definition' and 'DSL engineering'.\"\n}\n```"
+    },
+    {
+        "owner": "bkiers",
+        "name": "sqlite-parser",
+        "url": "https://github.com/bkiers/sqlite-parser",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Parsing, Syntax Analysis\",\n    \"purpose\": \"The repository's goal is to provide an ANTLR4 grammar and the generated parser for SQLite 3.8.x, enabling syntactic analysis of SQL statements.\",\n    \"artifact_type\": \"parser\",\n    \"justification\": \"The README explicitly states it contains 'An ANTLR4 grammar for SQLite 3.8.x' and demonstrates the generation and usage of the resulting lexer and parser classes for syntactic analysis of SQL statements. The core focus is on the grammar definition and the parser it produces.\"\n}\n```"
+    },
+    {
+        "owner": "solidityj",
+        "name": "solidity-antlr4",
+        "url": "https://github.com/solidityj/solidity-antlr4",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Parsing, Syntax Definition\",\n    \"purpose\": \"The repository provides the ANTLR4 grammar definitions for the Solidity programming language.\",\n    \"artifact_type\": \"parser\",\n    \"justification\": \"The README explicitly states 'Solidity grammar for ANTLR4', indicating its core focus is the definition of grammar rules (lexer and parser) for Solidity, which is the direct input for a parser generator like ANTLR4, fitting the 'pure grammar definition, ANTLR grammar, lexer rules, parser rules' criteria.\"\n}\n```"
+    },
+    {
+        "owner": "mike-lischke",
+        "name": "antlr4ng",
+        "url": "https://github.com/mike-lischke/antlr4ng",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/api",
+            "/runtime"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Language Runtime / Parsing\",\n    \"purpose\": \"This repository provides a TypeScript runtime library for lexers and parsers generated by antlr-ng and ANTLR4, enabling language processing within JavaScript/TypeScript applications.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The README explicitly states the package is a 'TypeScript runtime implementation' for antlr-ng and ANTLR4. It's installed via npm and provides reusable components (e.g., CharStream, CommonTokenStream, base parser/lexer classes) for consuming and processing text based on externally generated grammar artifacts, fitting the definition of a core framework or reusable library.\"\n}\n```"
+    },
+    {
+        "owner": "antlr",
+        "name": "jetbrains-plugin-sample",
+        "url": "https://github.com/antlr/jetbrains-plugin-sample",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Language Tooling Integration\",\n    \"purpose\": \"To demonstrate how to build an IntelliJ plugin that leverages ANTLR grammars and the `antlr4-intellij-adaptor` library for syntax analysis and IDE features.\",\n    \"artifact_type\": \"tutorial\",\n    \"justification\": \"The README explicitly describes the repository as a 'Sample IntelliJ plugin' and a 'demonstration' of the ANTLRv4 library for IntelliJ plugins. It provides clear instructions for running the plugin and highlights 'noteworthy things' in its implementation, all indicative of an educational example or demo.\"\n}\n```"
+    },
+    {
+        "owner": "bkiers",
+        "name": "rrd-antlr4",
+        "url": "https://github.com/bkiers/rrd-antlr4",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Grammar Visualization, Syntax Analysis, Tooling\",\n    \"purpose\": \"This repository provides a tool to parse ANTLR 4 grammars and generate visual railroad diagrams in various formats (HTML, SVG, PNG, PDF) for its parser and lexer rules.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The repository offers a standalone tool and, crucially, explicitly provides instructions for programmatic use as a reusable Java library via Maven dependency. It exposes a `DiagramGenerator` class for integration into other applications to process ANTLR4 grammars and generate diagrams.\"\n}\n```"
+    },
+    {
+        "owner": "carocad",
+        "name": "parcera",
+        "url": "https://github.com/carocad/parcera",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/core"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Parsing\",\n    \"purpose\": \"To provide a grammar-based parser for Clojure(script) code that safely converts source into an Abstract Syntax Tree (AST).\",\n    \"artifact_type\": \"parser\",\n    \"justification\": \"The README explicitly states the project is a 'Grammar-based Clojure(script) parser' and highlights its core focus on 'the grammar definition' using Antlr4, directly pointing to the `Clojure.g4` file. Its primary functionality demonstrated is parsing Clojure code and manipulating its AST representation.\"\n}\n```"
+    },
+    {
+        "owner": "daniellansun",
+        "name": "groovy-parser",
+        "url": "https://github.com/daniellansun/groovy-parser",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/core"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Parsing and Syntax Analysis\",\n    \"purpose\": \"To provide an ANTLR4-based parser for Groovy source code, generating an Abstract Syntax Tree (AST) that supports modern Groovy and Java language features, and to serve as an experimental lab for Groovy syntax evolution.\",\n    \"artifact_type\": \"parser\",\n    \"justification\": \"The repository is explicitly titled 'groovy-parser' and its primary described function is to 'parse Groovy source code and construct the related AST'. It specifies its foundation on 'antlr4' and details various language features it supports for parsing, reinforcing its core focus on syntax analysis and parser implementation.\"\n}\n```"
+    },
+    {
+        "owner": "antlr-ng",
+        "name": "antlr-ng",
+        "url": "https://github.com/antlr-ng/antlr-ng",
+        "framework_detected": "antlr",
+        "classification": "dsl",
+        "artifacts_detected": [
+            "src/grammar",
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Parsing and Language Implementation\",\n    \"purpose\": \"To provide a robust, next-generation tool for generating parser and lexer classes in multiple target programming languages from grammar definitions.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The repository describes 'antlr-ng' as a 'tool/package' that is installed via npm, clearly indicating its nature as a reusable software component. It acts as a core framework that provides an API (command-line or programmatic) to generate parser and lexer classes. While it facilitates parsing, the repository itself is not a collection of grammar definitions ('parser' category definition), but rather the generator engine, making 'libraries' the most fitting category for this reusable framework/tool.\"\n}\n```"
+    },
+    {
+        "owner": "rhu1",
+        "name": "fgg",
+        "url": "https://github.com/rhu1/fgg",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Language Engineering\",\n    \"purpose\": \"This repository provides a prototype implementation of Featherweight Go (FG) and Featherweight Generic Go (FGG), offering parsers, type checkers, interpreters, and an FGG-to-FG monomorphiser to support research into Go's generics.\",\n    \"artifact_type\": \"dsl\",\n    \"justification\": \"The repository's core focus is the definition and implementation of two specific languages (Featherweight Go and Featherweight Generic Go), encompassing their syntax (ANTLR grammars), abstract syntax (ASTs), static/dynamic semantics (type checkers, interpreters), and transformations (monomorphisation). These activities are fundamental to the engineering and prototyping of domain-specific languages or language subsets for research, fitting the 'dsl' category better than pure parser or metamodel definitions.\"\n}\n```"
+    },
+    {
+        "owner": "kaby76",
+        "name": "AntlrVSIX",
+        "url": "https://github.com/kaby76/AntlrVSIX",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Syntax, Analysis, Refactoring, Transformation, IDE Tooling\",\n    \"purpose\": \"To provide comprehensive tooling, including IDE extensions and a command-line utility, for editing, analyzing, refactoring, and converting various context-free grammars like Antlr and Bison.\",\n    \"artifact_type\": \"dsl\",\n    \"justification\": \"The repository focuses on providing a specialized language workbench, via LSP-based IDE extensions and a command-line tool ('Trash'), for editing, analyzing, refactoring, and converting context-free grammars. These grammars are themselves DSLs, and the provided features (e.g., semantic highlighting, go-to-definition, refactoring, transformations) are characteristic of DSL engineering tools and language workbenches for managing and evolving language definitions.\"\n}\n```"
+    },
+    {
+        "owner": "kaby76",
+        "name": "Trash",
+        "url": "https://github.com/kaby76/Trash",
+        "framework_detected": "antlr",
+        "classification": "dsl",
+        "artifacts_detected": [
+            ".xtext",
+            "src/grammar",
+            ".g4",
+            ".g",
+            "/core",
+            "/api",
+            "/lib",
+            "/examples/",
+            "/samples/",
+            "/demo"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Language Engineering, Grammar Transformation, Parse Tree Transformation, Syntax Analysis\",\n    \"purpose\": \"Trash is a collection of ~40 command-line tools to analyze and transform Antlr parse trees and grammars.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The repository provides a reusable collection of specialized command-line tools (a 'toolkit' or 'plugin set' in broader terms) designed to manipulate and analyze Antlr grammars and parse trees. These tools can be installed, chained, and integrated into workflows for various language engineering tasks, fitting the description of a set of reusable components.\"\n}\n```"
+    },
+    {
+        "owner": "yshavit",
+        "name": "antlr-denter",
+        "url": "https://github.com/yshavit/antlr-denter",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/core",
+            "/lib",
+            "/examples/"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Syntax Extension (Lexer)\",\n    \"purpose\": \"This repository provides a reusable library (`DenterHelper`) to add Python-like indentation tokenization (INDENT/DEDENT) functionality to ANTLR4 lexers across multiple programming languages.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The repository offers a programmatic solution (the `DenterHelper` class/library) designed to be integrated into ANTLR4 lexers to handle Python-style indentation. It is presented as a 'plugin' or 'reusable library' with implementations for Java, Python, and C#, distributed via package managers, fitting the definition of a reusable library or plugin set.\"\n}\n```"
+    },
+    {
+        "owner": "kaby76",
+        "name": "Antlr4BuildTasks",
+        "url": "https://github.com/kaby76/Antlr4BuildTasks",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Parsing\",\n    \"purpose\": \"The repository's goal is to provide a seamless and automated way to integrate Antlr4 grammar compilation into C# .NET projects by distributing a build-time NuGet package.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The repository offers 'Antlr4BuildTasks' as a reusable NuGet package that extends the .NET build system (MSBuild) to automate the entire Antlr4 parser and lexer generation process for C# projects, including downloading dependencies, acting as a specialized build-time library or plugin set.\"\n}\n```"
+    },
+    {
+        "owner": "scassandra",
+        "name": "scassandra-server",
+        "url": "https://github.com/scassandra/scassandra-server",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/plugins"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Testing Frameworks\",\n    \"purpose\": \"To provide a stubbed Apache Cassandra server that allows developers to easily test applications by simulating various Cassandra behaviors and failures, supporting different protocol versions and client drivers.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The repository offers a reusable server component and a Java client API, forming a comprehensive library/framework designed to act as a mock Cassandra instance for integration and unit testing. It's intended to be consumed by other applications to facilitate testing.\"\n}\n```"
+    },
+    {
+        "owner": "uwol",
+        "name": "proleap-vb6-parser",
+        "url": "https://github.com/uwol/proleap-vb6-parser",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/api"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Parsing, Syntax, Semantic Analysis\",\n    \"purpose\": \"This repository provides an ANTLR4-based parser for Visual Basic 6.0 code, generating both an Abstract Syntax Tree (AST) and an Abstract Semantic Graph (ASG) for further analysis.\",\n    \"artifact_type\": \"parser\",\n    \"justification\": \"The README explicitly states its core function is an 'ANTLR4-based parser for Visual Basic 6.0' that generates an 'Abstract Syntax Tree (AST)' and 'Abstract Semantic Graph (ASG)'. It details the grammar definition, parsing process, and how to use the generated parser in a project, clearly aligning with the 'parser' category.\"\n}\n```"
+    },
+    {
+        "owner": "FIXTradingCommunity",
+        "name": "fix-orchestra",
+        "url": "https://github.com/FIXTradingCommunity/fix-orchestra",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/examples/"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Metamodeling\",\n    \"purpose\": \"This repository provides foundational resources and tools for the FIX Orchestra standard, including its core abstract data structure definitions (metamodels), a domain-specific language, and various utilities for parsing, validation, and code generation.\",\n    \"artifact_type\": \"metamodelo\",\n    \"justification\": \"The project's 'Normative Modules' (`repository` and `interfaces`) are central, explicitly defining XML schemas for the core FIX Orchestra message structures, components, and service offerings. These schemas serve as fundamental abstract data structure definitions (metamodels) for the 'machine readable rules of engagement' that FIX Orchestra standardizes. While the repository also includes a Domain Specific Language (Score DSL), the overall project is primarily built upon and provides resources for these foundational metamodels.\"\n}\n```"
+    },
+    {
+        "owner": "matthewbdwyer",
+        "name": "tipc",
+        "url": "https://github.com/matthewbdwyer/tipc",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Compiler Construction, Program Analysis\",\n    \"purpose\": \"To serve as an educational resource and starting point for building a compiler for the Tiny Imperative Programming (TIP) language, targeting LLVM bitcode.\",\n    \"artifact_type\": \"tutorial\",\n    \"justification\": \"The README explicitly states that 'The goal of this project is to provide a starting point for project work in an undergraduate compilers course.' It provides comprehensive instructions for building, using, and developing the compiler, covers its architecture and features, and includes extensive resources, making it a clear pedagogical tool or example.\"\n}\n```"
+    },
+    {
+        "owner": "dzieje-khorinis",
+        "name": "DaedalusCompiler",
+        "url": "https://github.com/dzieje-khorinis/DaedalusCompiler",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"DSL Engineering, Language Implementation\",\n    \"purpose\": \"The repository's goal is to provide a functional compiler for the Daedalus scripting language used in Gothic I and II.\",\n    \"artifact_type\": \"dsl\",\n    \"justification\": \"The repository provides a complete compiler for Daedalus, which is identified as a scripting language (a Domain-Specific Language or DSL). The development and implementation of a compiler for a DSL is a core activity within 'DSL engineering', making this repository a practical artifact in that domain, rather than just a grammar definition ('parser') or a generic library.\"\n}\n```"
+    },
+    {
+        "owner": "OP-TED",
+        "name": "eForms-SDK",
+        "url": "https://github.com/OP-TED/eForms-SDK",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Information Modeling, Syntax, and Validation\",\n    \"purpose\": \"The eforms SDK provides the necessary resources for building eForms applications that create, edit, visualise, validate and submit for publication, valid eForms notices.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The project is explicitly named an 'SDK' (Software Development Kit) and provides a comprehensive set of reusable metadata assets (schemas, grammars, codelists, validation rules) distributed via Maven Central, which are intended to be consumed by applications. This fits the definition of a reusable library or framework for software development.\"\n}\n```"
+    },
+    {
+        "owner": "beda-software",
+        "name": "fhirpath-py",
+        "url": "https://github.com/beda-software/fhirpath-py",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Language Runtime / Expression Evaluation\",\n    \"purpose\": \"This repository provides a Python implementation of the FHIRPath expression language, enabling users to evaluate FHIRPath expressions against FHIR resources.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The repository is a reusable Python package (installable via pip) that implements the FHIRPath specification. It offers a comprehensive API for evaluating and compiling FHIRPath expressions against data, integrates with FHIR data models, and supports user-defined functions. While it utilizes an ANTLR-generated parser internally, its primary scope and exposed functionality are that of a full runtime library for FHIRPath evaluation, rather than solely focusing on grammar definition or parser generation.\"\n}\n```"
+    },
+    {
+        "owner": "Riverside-Software",
+        "name": "sonar-openedge",
+        "url": "https://github.com/Riverside-Software/sonar-openedge",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/core",
+            "/api",
+            "/lib",
+            "/plugins"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Static Code Analysis\",\n    \"purpose\": \"The repository provides a SonarQube plugin (CABL) for analyzing OpenEdge ABL code to report metrics, identify issues, measure code coverage, and detect vulnerabilities.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The README explicitly describes CABL as an 'OpenEdge plugin' for the SonarQube platform, enabling comprehensive analysis of ABL code. A SonarQube plugin is a reusable software component or extension, which aligns perfectly with the 'libraries' category (specifically, a 'plugin set' or 'reusable library'). While it uses parsing (ANTLR) as an underlying mechanism, the artifact's primary role and deliverable is a functional analysis plugin, not just a parser or a DSL definition.\"\n}\n```"
+    },
+    {
+        "owner": "No-SF-Work",
+        "name": "ayame",
+        "url": "https://github.com/No-SF-Work/ayame",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/lib"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Compiler Engineering\",\n    \"purpose\": \"The repository's goal is to implement a toy compiler that translates SysY (a subset of C language) into ARMv7a assembly code.\",\n    \"artifact_type\": \"outro\",\n    \"justification\": \"This repository represents a complete compiler system, encompassing parsing (using ANTLR), intermediate representation, numerous optimization passes (e.g., GVN, GCM, dead code elimination, register allocation), and final code generation. This comprehensive scope extends far beyond merely defining a DSL, creating a pure parser, or defining a metamodel, making 'outro' the most appropriate classification among the given choices.\"\n}\n```"
+    },
+    {
+        "owner": "teverett",
+        "name": "antlr4example",
+        "url": "https://github.com/teverett/antlr4example",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Parsing\",\n    \"purpose\": \"This repository provides a quick Java example demonstrating how to use Antlr4 and the antlr4-maven-plugin to compile an existing grammar and parse a simple Cobol program.\",\n    \"artifact_type\": \"tutorial\",\n    \"justification\": \"The README explicitly describes the repository as 'A quick Antlr4 Java example' and details its function as demonstrating the usage of Antlr4 and its Maven plugin to parse an existing Cobol grammar, which directly aligns with the definition of a tutorial or sample aimed at teaching or illustrating a process.\"\n}\n```"
+    },
+    {
+        "owner": "alibaba",
+        "name": "rsqldb",
+        "url": "https://github.com/alibaba/rsqldb",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/api"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Stream Processing Runtime\",\n    \"purpose\": \"RSQLDB aims to provide a distributed, highly available, and scalable database system for stream processing, allowing users to define and execute tasks using standard SQL.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"RSQLDB is described as a 'database for stream processing' that provides a 'Restful API' and 'core features' for defining and executing tasks. This positions it as a complete system, a core framework, and a runtime environment for stream processing. While it explicitly mentions parsing SQL using ANTLR4 in its build process, the repository's focus is on the deployable, functional system itself rather than just the grammar definitions or parsing utilities as a standalone artifact. Therefore, it fits best into the 'libraries' category which includes 'runtime' and 'core framework'.\"\n}\n```"
+    },
+    {
+        "owner": "thautwarm",
+        "name": "Typed-BNF",
+        "url": "https://github.com/thautwarm/Typed-BNF",
+        "framework_detected": "antlr",
+        "classification": "dsl",
+        "artifacts_detected": [
+            "src/grammar",
+            ".g4",
+            ".g",
+            "/api"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Language Engineering\",\n    \"purpose\": \"Typed BNF is a backend-agnostic tool for defining grammars with type inference and semantic actions, which generates parsers and algebraic data types for multiple target programming languages.\",\n    \"artifact_type\": \"dsl\",\n    \"justification\": \"The repository describes a tool, Typed BNF, that provides a specialized language (its own BNF syntax with type inference and semantic actions) for defining other languages' grammars. It generates parsers and associated Abstract Data Types (ADTs) for various programming language backends (e.g., C#, TypeScript with ANTLR). This functionality, including IDE support and backend-agnostic code generation from a language definition, directly aligns with the concepts of DSL engineering and language workbenches, where the focus is on defining and processing domain-specific or general-purpose languages.\"\n}\n```"
+    },
+    {
+        "owner": "protostuff",
+        "name": "protostuff-compiler",
+        "url": "https://github.com/protostuff/protostuff-compiler",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/core"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Language Tooling, Parsing, Code Generation\",\n    \"purpose\": \"This repository provides reusable libraries and tools for parsing Protocol Buffer files and generating Java code and HTML documentation from them.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The repository is structured into distinct modules, primarily a 'protostuff-parser' and a 'protostuff-generator'. These modules are clearly designed as reusable components or libraries for processing Protocol Buffer files. The 'protostuff-cli' and 'protostuff-maven-plugin' are applications built on top of these core libraries to provide convenient usage. Therefore, the overall focus of the repository is on providing a set of reusable libraries for parser and code generation functionalities.\"\n}\n```"
+    },
+    {
+        "owner": "emweb",
+        "name": "jwt",
+        "url": "https://github.com/emweb/jwt",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/lib",
+            "/plugins",
+            "/examples/"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Web Application Development\",\n    \"purpose\": \"JWt is a Java library designed to facilitate the development of web applications using a pure Java, component-driven approach.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The README explicitly states 'JWt is a Java library for developing web applications' and details its features, dependencies, build process, and how to include it as a reusable dependency in other projects (via Maven), clearly classifying it as a library or framework rather than a DSL, tutorial, parser, or metamodel.\"\n}\n```"
+    },
+    {
+        "owner": "UnBCIC-TP2",
+        "name": "Oberon-Scala",
+        "url": "https://github.com/UnBCIC-TP2/Oberon-Scala",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/core",
+            "/plugins",
+            "/tutorial"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Language Engineering / Compiler Construction\",\n    \"purpose\": \"This repository provides an implementation of the Oberon programming language in Scala, featuring compilation, testing, and generation of LLVM intermediate representation and executables.\",\n    \"artifact_type\": \"dsl\",\n    \"justification\": \"The core focus of the repository is the 'implementation of the Oberon language,' which inherently involves defining its syntax and semantics, compiling it (evidenced by AST generation and LLVM integration), and testing its functionality. This aligns directly with the principles and tasks involved in language definition and DSL engineering.\"\n}\n```"
+    },
+    {
+        "owner": "paleo",
+        "name": "typeonly",
+        "url": "https://github.com/paleo/typeonly",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/api",
+            "/tutorial"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Validation\",\n    \"purpose\": \"To provide a lightweight library and tools for validating JSON or JavaScript objects against TypeScript type definitions.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The repository is explicitly described as a 'validation library' and a monorepo containing multiple reusable packages. These include an API (@typeonly/validator) and a CLI (@typeonly/validator-cli) for data validation, alongside a loader and a parser. While a key component is a parser (using ANTLR), the overarching goal and delivered artifacts constitute a complete set of reusable libraries for data validation.\"\n}\n```"
+    },
+    {
+        "owner": "cronburg",
+        "name": "antlr-haskell",
+        "url": "https://github.com/cronburg/antlr-haskell",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/core"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Parsing\",\n    \"purpose\": \"To provide a Haskell implementation of the ANTLR parsing framework, emphasizing interchangeable parsing backends and the re-implementation of core parsing algorithms.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The repository describes itself as 'A Haskell implementation of ANTLR' and discusses design principles for various interchangeable parsing backends (GLR, LR, LL, etc.) and algorithms. It's built and tested as a library, indicating it provides reusable components and a framework for parsing, rather than a specific parser, a DSL, or a tutorial.\"\n}\n```"
+    },
+    {
+        "owner": "aichipdesign",
+        "name": "chipgptft",
+        "url": "https://github.com/aichipdesign/chipgptft",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"LLM Finetuning, Data Augmentation, Verilog AST Manipulation\",\n    \"purpose\": \"To provide an automated framework for augmenting chip design data, primarily based on Verilog ASTs, to facilitate the finetuning of Large Language Models (LLMs) for tasks like Verilog generation and repair.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The repository describes an 'Automated design-data augmentation framework' that performs tasks like Verilog AST-based augmentation and auto-splitting. A 'framework' inherently implies a collection of reusable components, tools, and logic designed to achieve a specific goal (data augmentation for LLM finetuning), which aligns well with the 'libraries' category rather than just a standalone language definition, parser grammar, or metamodel.\"\n}\n```"
+    },
+    {
+        "owner": "nawforce",
+        "name": "apex-parser",
+        "url": "https://github.com/nawforce/apex-parser",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Parsing\",\n    \"purpose\": \"To provide a reusable lexer and parser for the Salesforce Apex language, including SOQL/SOSL, based on an ANTLR4 grammar.\",\n    \"artifact_type\": \"parser\",\n    \"justification\": \"The repository is explicitly described as a 'Parser for Salesforce Apex' built upon an 'ANTLR4 grammar'. It provides the lexer and parser components for various platforms (NPM, Maven) and focuses solely on generating parse trees, without offering higher-level language engineering capabilities such as semantic analysis or code generation, aligning perfectly with the 'parser' category.\"\n}\n```"
+    },
+    {
+        "owner": "antlr",
+        "name": "Antlr4Formatter",
+        "url": "https://github.com/antlr/Antlr4Formatter",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Code Transformation/Formatting\",\n    \"purpose\": \"This repository provides a standalone utility and a reusable library for automatically formatting Antlr4 grammar files.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The repository offers a buildable artifact (JAR with Maven coordinates) that can be used as a standalone formatter or integrated into build systems via plugins (like Spotless), aligning with the definition of a reusable library or utility providing specific functionality for Antlr4 grammars.\"\n}\n```"
+    },
+    {
+        "owner": "NougatCA",
+        "name": "SPT-Code",
+        "url": "https://github.com/NougatCA/SPT-Code",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/examples/"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Machine Learning on Code / Code Intelligence\",\n    \"purpose\": \"The repository provides a framework and tools for pre-training, fine-tuning, and testing machine learning models on source code for various tasks such as code summarization, bug fixing, and code translation.\",\n    \"artifact_type\": \"outro\",\n    \"justification\": \"The repository is a sophisticated machine learning system or framework dedicated to code intelligence tasks. It utilizes parsing tools like ANTLR and Tree-sitter to process code into ASTs, which then serve as input for ML models. Its primary focus is not on defining new languages (dsl), serving as a basic instructional guide (tutorial), offering a generic reusable set of components (libraries), solely defining grammars (parser), or explicitly defining abstract data structures/metamodels in a traditional MDE sense. Instead, it applies ML techniques to existing code artifacts for analytical and generative purposes, which falls outside the scope of the more specific categories provided, thus 'outro' is the most appropriate classification.\"\n}\n```"
+    },
+    {
+        "owner": "1c-syntax",
+        "name": "bsl-parser",
+        "url": "https://github.com/1c-syntax/bsl-parser",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Parsing, Syntax Analysis\",\n    \"purpose\": \"To provide a collection of ANTLR4-based parsers and their underlying grammar definitions for various 1C languages, specifically BSL and SDBL.\",\n    \"artifact_type\": \"parser\",\n    \"justification\": \"The README explicitly describes the repository as a 'Collection of parsers for Language 1C (BSL) in ANTLR4 format' and states that it contains 'Правила лексера и грамматики' (lexer and grammar rules) based on BNF/JFlex rules. This focus on grammar definition, lexer rules, and parser rules using ANTLR4 precisely matches the definition of the 'parser' category.\"\n}\n```"
+    },
+    {
+        "owner": "thmeitz",
+        "name": "ksqldb-go",
+        "url": "https://github.com/thmeitz/ksqldb-go",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Parsing\",\n    \"purpose\": \"This repository provides a Go client library to interact with ksqlDB, enabling users to execute statements, run push/pull queries, and manage ksqlDB resources.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The README explicitly titles the repository as 'ksqlDB Go library' and describes it as a 'Go client for ksqlDB'. It details API calls, installation as a library, and provides code examples for using its functionalities, fitting the definition of a reusable software library. While it includes a parser, its primary offering is the client API.\"\n}\n```"
+    },
+    {
+        "owner": "karlstroetmann",
+        "name": "Formal-Languages",
+        "url": "https://github.com/karlstroetmann/Formal-Languages",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/examples/"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Language Engineering and Parsing (Educational)\",\n    \"purpose\": \"To provide lecture notes and interactive examples for a class on formal languages and compilers.\",\n    \"artifact_type\": \"tutorial\",\n    \"justification\": \"The README explicitly states the repository contains 'Lecture notes and examples for my class on formal languages and compilers'. The inclusion of a Binder badge and detailed Docker instructions for running notebooks confirms its intent as an educational resource and interactive learning material, fitting the 'tutorial' category perfectly.\"\n}\n```"
+    },
+    {
+        "owner": "chequer-io",
+        "name": "qsi",
+        "url": "https://github.com/chequer-io/qsi",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Query Analysis, Metamodeling, and Transformation\",\n    \"purpose\": \"To provide a unified C# interface and framework for analyzing, processing, and compiling query structures from various SQL dialects by transforming their parsed output into a common semantic tree.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The README describes QSI as a 'Query Structure Interface' that integrates with existing parsers for multiple SQL dialects (MySQL, PostgreSQL, Oracle, etc.), building a common 'semantic tree' from their output. It then features a 'Structure Compiler' and a 'Debugger' to work with these trees. This indicates a reusable software component (library/framework) that provides an API and processing logic across diverse query languages, underpinned by a common metamodel for query structures. The Nuget badge further supports its nature as a distributable library.\"\n}\n```"
+    },
+    {
+        "owner": "FirelyTeam",
+        "name": "firely-cql-sdk",
+        "url": "https://github.com/FirelyTeam/firely-cql-sdk",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/core",
+            "/runtime",
+            "/lib",
+            "/demo"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"DSL Runtime & Tooling\",\n    \"purpose\": \"This repository provides a .NET SDK for parsing, compiling, and executing Clinical Quality Language (CQL) expressions, represented as ELM, on the .NET platform.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The repository delivers a Software Development Kit (SDK) which is explicitly stated and functions as a collection of reusable libraries and a runtime engine for working with CQL/ELM. It includes components for parsing (Antlr4.Runtime.Standard), code generation (Microsoft.CodeAnalysis.CSharp), and an execution engine, fitting the 'reusable library, runtime, core framework, API' definition for the 'libraries' category.\"\n}\n```"
+    },
+    {
+        "owner": "ZenUml",
+        "name": "core",
+        "url": "https://github.com/ZenUml/core",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/core",
+            "/api",
+            "/runtime",
+            "/plugins",
+            "/demo",
+            "/tutorial"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Language Engineering\",\n    \"purpose\": \"To provide a JavaScript-based tool for defining and rendering sequence diagrams from Markdown-inspired text definitions.\",\n    \"artifact_type\": \"dsl\",\n    \"justification\": \"The README explicitly states that the repository contains 'both the DSL parser and the renderer' for 'Markdown-inspired text definitions' used to create sequence diagrams. The parser generation with Antlr4 from grammar definitions confirms the core focus on defining and implementing a Domain-Specific Language (DSL).\"\n}\n```"
+    },
+    {
+        "owner": "m-zakeri",
+        "name": "CodART",
+        "url": "https://github.com/m-zakeri/CodART",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/core",
+            "/runtime",
+            "/tutorial"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Program Transformation, Program Analysis, and Automated Refactoring\",\n    \"purpose\": \"CodART is an intelligent, multi-objective engine for automated Java source code refactoring and optimization, leveraging search-based software engineering, reinforcement learning, and machine learning models to improve code quality.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The repository describes CodART as a 'Source Code Automated Refactoring Toolkit' and 'refactoring engine' that provides a comprehensive set of '40+ refactoring implementations,' integrates various analysis tools (PMD, SciTools Understand), machine learning models, and search-based optimization algorithms within a containerized architecture with an API. This constitutes a core framework and a collection of reusable components for automated program transformation and quality improvement, fitting the 'libraries' category which encompasses reusable libraries, runtimes, and core frameworks. While it uses ANTLR4-based parsing as an enabling feature, the overall focus and scope are on the complete toolkit and its capabilities, not solely on grammar definition or a new DSL.\"\n}\n```"
+    },
+    {
+        "owner": "pzbitskiy",
+        "name": "tealang",
+        "url": "https://github.com/pzbitskiy/tealang",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Language Engineering, Compilation, Transformation, Syntax, Semantics, Parsing\",\n    \"purpose\": \"The repository aims to define and implement a new high-level imperative language called 'Tealang' for writing Algorand Smart Contracts, abstracting the stack-based Algorand Virtual Machine, and providing a compiler to translate Tealang code into TEAL v6 or bytecode.\",\n    \"artifact_type\": \"dsl\",\n    \"justification\": \"The repository's core focus is the definition of a new high-level language ('Tealang') with its own syntax, features, and semantics for a specific domain (Algorand Smart Contracts). It provides the tooling (a compiler/transpiler and parser) to work with this language, which are fundamental activities in Domain-Specific Language (DSL) engineering and general language definition.\"\n}\n```"
+    },
+    {
+        "owner": "rail5",
+        "name": "bashpp",
+        "url": "https://github.com/rail5/bashpp",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/core"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Language Engineering, DSL Development, Compilation\",\n    \"purpose\": \"This repository defines, implements, and provides tooling for Bash++, a new domain-specific language that extends Bash with object-oriented features.\",\n    \"artifact_type\": \"dsl\",\n    \"justification\": \"The repository introduces 'Bash++', a superset of Bash that adds support for classes and objects,' and provides a compiler for this language. It leverages ANTLR4 for parsing, includes a language server, and offers a VSCode extension for IDE support. This entire ecosystem is dedicated to defining, implementing, and supporting a new language, which is the core activity of DSL engineering.\"\n}\n```"
+    },
+    {
+        "owner": "mcchatman8009",
+        "name": "antlr4-tool",
+        "url": "https://github.com/mcchatman8009/antlr4-tool",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Code Generation, Parsing, Syntax Analysis, Language Tooling\",\n    \"purpose\": \"The repository provides a command-line tool and library for generating Antlr4 JavaScript/TypeScript parsers and lexers, including TypeScript declaration files, from grammar definitions.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The `antlr4-tool` is distributed as a reusable npm package (a library) that offers both a command-line interface and a programmatic API. Its primary function is to extend the ANTLR4 ecosystem by facilitating the generation of JavaScript/TypeScript parsers and lexers from `.g4` grammar files, specifically addressing TypeScript declaration file generation and ES5 browser compatibility.\"\n}\n```"
+    },
+    {
+        "owner": "vaclav",
+        "name": "voicemenu",
+        "url": "https://github.com/vaclav/voicemenu",
+        "framework_detected": "mps",
+        "classification": "dsl",
+        "artifacts_detected": [
+            "behavior.mps",
+            "typesystem.mps",
+            "editor.mps",
+            ".g",
+            "/runtime",
+            "/lib",
+            "/samples/"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"DSL Engineering, Code Generation, Language Workbenches\",\n    \"purpose\": \"To provide a domain-specific language (VoiceMenu) for expressing voice menu structures, complete with an editor and multiple code generators, all built using JetBrains MPS.\",\n    \"artifact_type\": \"dsl\",\n    \"justification\": \"The README explicitly states the core of the project is a 'Voice Menu language' built with JetBrains MPS. It provides modules for the 'Voice Menu Language definition', an editor, and multiple generators (XML, HTML, Java, Asterisk) to transform models written in this DSL into various target formats, which is the quintessential purpose of a DSL repository.\"\n}\n```"
+    },
+    {
+        "owner": "JetBrains",
+        "name": "mps-coderules",
+        "url": "https://github.com/JetBrains/mps-coderules",
+        "framework_detected": "mps",
+        "classification": "dsl",
+        "artifacts_detected": [
+            "behavior.mps",
+            "typesystem.mps",
+            "editor.mps",
+            ".g",
+            "/core",
+            "/runtime",
+            "/lib"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Language Engineering, Code Analysis, Validation\",\n    \"purpose\": \"This repository provides an experimental collection of languages built on JetBrains MPS to enable a logical programming approach for typechecking and other code analysis problems using constraint handling.\",\n    \"artifact_type\": \"dsl\",\n    \"justification\": \"The README explicitly describes 'Coderules' as a 'collection of languages' leveraging JetBrains MPS, which is a language workbench. The project focuses on defining and extending languages for implementing logical rules and constraint handling for code analysis, directly aligning with the definition of DSL engineering.\"\n}\n```"
+    },
+    {
+        "owner": "chubbymaggie",
+        "name": "fast",
+        "url": "https://github.com/chubbymaggie/fast",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/core",
+            "/api",
+            "/lib",
+            "/tutorial"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Metamodeling for Source Code Representation\",\n    \"purpose\": \"To define and implement an efficient, flat binary representation for Abstract Syntax Trees (ASTs) to accelerate various software engineering tasks by optimizing AST storage and retrieval.\",\n    \"artifact_type\": \"metamodelo\",\n    \"justification\": \"The project's core artifact is the definition of a novel 'Flat Abstract Syntax Tree' (FAST) structure, explicitly referred to as a 'code schema' that specifies 'Kinds' and uses `flatbuffers` and `protobufs` for its binary representation. This focus on defining an abstract data structure for source code directly aligns with the 'metamodelo' category, even though it also provides a tool/library to manipulate instances of this metamodel.\"\n}\n```"
+    },
+    {
+        "owner": "51WORLD",
+        "name": "osc2checker",
+        "url": "https://github.com/51WORLD/osc2checker",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Syntax / Parsing / Validation\",\n    \"purpose\": \"To provide a command-line tool for grammar checking ASAM OpenSCENARIO 2 scenario files by leveraging an ANTLR4-generated parser based on the official EBNF grammar.\",\n    \"artifact_type\": \"parser\",\n    \"justification\": \"The repository describes a 'grammar check tool' implemented with ANTLR4, utilizing an EBNF grammar for ASAM OpenSCENARIO 2. This directly indicates its core focus is on parsing input files against specified grammar rules to perform syntactic validation, which aligns perfectly with the 'parser' category, encompassing grammar definition application and execution.\"\n}\n```"
+    },
+    {
+        "owner": "apex-dev-tools",
+        "name": "apex-parser",
+        "url": "https://github.com/apex-dev-tools/apex-parser",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Parsing\",\n    \"purpose\": \"To provide a robust parser for the Salesforce Apex language, including Triggers and inline SOQL/SOSL, leveraging an ANTLR4 grammar, and distributing it as reusable libraries for Java and JavaScript/TypeScript.\",\n    \"artifact_type\": \"parser\",\n    \"justification\": \"The repository explicitly identifies itself as a 'Parser for Salesforce Apex' and states it is 'based on an ANTLR4 grammar'. Its core functionality revolves around defining the grammar, generating the parser, and packaging it for consumption, offering entry points and utilities for parsing and parse tree traversal. This directly aligns with the 'parser' category, which focuses on grammar definition and the resulting parsing capabilities.\"\n}\n```"
+    },
+    {
+        "owner": "eclipse-emf",
+        "name": "org.eclipse.emf",
+        "url": "https://github.com/eclipse-emf/org.eclipse.emf",
+        "framework_detected": "emf",
+        "classification": "dsl",
+        "artifacts_detected": [
+            ".xtext",
+            ".mwe2",
+            ".ecore",
+            ".genmodel",
+            ".g",
+            "/core",
+            "/runtime",
+            "/lib",
+            "/plugins",
+            "/examples/",
+            "/tutorial"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Modeling Framework, Code Generation, Metamodeling\",\n    \"purpose\": \"To provide a foundational framework, runtime support, and tools for building applications based on structured data models, enabling code generation and interoperability.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The README explicitly states that Eclipse EMF is a 'modeling framework and code generation facility' that provides 'tools and runtime support' and 'APIs' (via Eclipse XSD), making it a core set of reusable libraries and a foundational framework for model-driven development.\"\n}\n```"
+    },
+    {
+        "owner": "MDEGroup",
+        "name": "MDEForge",
+        "url": "https://github.com/MDEGroup/MDEForge",
+        "framework_detected": "emf",
+        "classification": "metamodel",
+        "artifacts_detected": [
+            ".ecore",
+            ".genmodel",
+            ".g",
+            "/core",
+            "/api",
+            "/lib",
+            "/plugins",
+            "/examples/",
+            "/samples/",
+            "/demo",
+            "/tutorial"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Model Management\",\n    \"purpose\": \"To provide an extensible, web-based platform with core services and APIs for managing, analyzing, and reusing diverse MDE artifacts such as metamodels, models, transformations, and editors as software-as-a-service.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"MDEForge is described as a 'platform' consisting of 'core services' and 'programmatic interfaces (API)' for managing MDE artifacts. These core services and APIs, enabling extensibility and remote use as SaaS, align with the definition of a 'runtime' or 'core framework' within the 'libraries' category, which provides foundational reusable components for MDE infrastructure.\"\n}\n```"
+    },
+    {
+        "owner": "JetBrains",
+        "name": "fbme",
+        "url": "https://github.com/JetBrains/fbme",
+        "framework_detected": "mps",
+        "classification": "dsl",
+        "artifacts_detected": [
+            "behavior.mps",
+            "typesystem.mps",
+            "editor.mps",
+            ".g4",
+            ".g",
+            "/runtime",
+            "/lib",
+            "/plugins",
+            "/samples/"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Language Engineering\",\n    \"purpose\": \"To provide an Integrated Development Environment (IDE) for the IEC 61499 standard by leveraging the JetBrains MPS language workbench.\",\n    \"artifact_type\": \"dsl\",\n    \"justification\": \"The README explicitly describes FBME as an 'IDE for IEC 61499 standard built on top of JetBrains MPS language workbench.' This clearly indicates its focus on creating a specialized language environment and tools using a language workbench, which is the core of DSL engineering and language definition, fitting the 'dsl' category perfectly.\"\n}\n```"
+    },
+    {
+        "owner": "HL7",
+        "name": "FHIRPath",
+        "url": "https://github.com/HL7/FHIRPath",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/lib",
+            "/examples/"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Language Definition\",\n    \"purpose\": \"This repository serves as the official source for the HL7 FHIRPath language specification, outlining its syntax and semantics.\",\n    \"artifact_type\": \"dsl\",\n    \"justification\": \"The repository explicitly states it is the 'source for the HL7 FHIRPath specification'. FHIRPath is a domain-specific language (DSL), and providing its definitive specification (which includes its syntax definition, as evidenced by the mention of an ANTLR4 grammar) directly aligns with the focus of DSL engineering and language definition.\"\n}\n```"
+    },
+    {
+        "owner": "antlr",
+        "name": "antlr4test-maven-plugin",
+        "url": "https://github.com/antlr/antlr4test-maven-plugin",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/examples/"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Parsing, Testing, Validation, Syntax\",\n    \"purpose\": \"A Maven plugin designed to facilitate the automated testing of ANTLR4 grammars by parsing example input files, checking generated parse trees, and validating expected errors.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"This repository provides a 'Maven Mojo' (a Maven plugin goal) which is a reusable software component that extends Maven's capabilities. Its core function is to offer an API and framework for testing ANTLR4 grammars, fitting the 'libraries' category as a specialized plugin or toolset rather than a language definition, tutorial, pure grammar, or metamodel.\"\n}\n```"
+    },
+    {
+        "owner": "ostis-dev",
+        "name": "sc-machine",
+        "url": "https://github.com/ostis-dev/sc-machine",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/runtime"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Language Engineering / Runtime\",\n    \"purpose\": \"To provide a core engine or runtime environment, likely for symbolic computation or advanced language processing, as inferred from its diverse system and language-related dependencies.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The repository describes the build process for a complex 'SC-machine' with an extensive list of dependencies including database (RocksDB), GUI/framework components (Qt, GLib), system utilities (Boost), parsing tools (ANTLR), and language tooling (LLVM, Clang). This collective set of dependencies indicates a foundational software component, a runtime environment, or a core framework, which aligns precisely with the 'libraries' category that includes 'runtime' and 'core framework'.\"\n}\n```"
+    },
+    {
+        "owner": "antlr",
+        "name": "website-antlr4",
+        "url": "https://github.com/antlr/website-antlr4",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/api",
+            "/runtime",
+            "/lib",
+            "/plugins",
+            "/examples/",
+            "/demo"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Parsing\",\n    \"purpose\": \"To provide educational resources, documentation, and examples related to the ANTLR4 parser generator.\",\n    \"artifact_type\": \"tutorial\",\n    \"justification\": \"The content of an official tool website (antlr4.org) primarily serves as a resource hub containing documentation, examples, and guides aimed at teaching users how to utilize the ANTLR4 tool, which directly aligns with the 'tutorial' category.\"\n}\n```"
+    },
+    {
+        "owner": "occiware",
+        "name": "ecore",
+        "url": "https://github.com/occiware/ecore",
+        "framework_detected": "emf",
+        "classification": "dsl",
+        "artifacts_detected": [
+            ".xtext",
+            ".mwe2",
+            ".ecore",
+            ".genmodel",
+            ".g",
+            "/core",
+            "/runtime",
+            "/lib",
+            "/examples/",
+            "/demo"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Metamodeling\",\n    \"purpose\": \"This repository defines the OCCI meta-model and its extensions using EMF/Ecore, serving as the foundational abstract data structures for an ecosystem of OCCI-related MDE tooling.\",\n    \"artifact_type\": \"metamodelo\",\n    \"justification\": \"The README explicitly states that the repository 'contains the OCCI meta-model described with EMF plus OCCI extensions'. The content section details multiple 'generated OCCI.ecore metamodel' files (e.g., OCCI.ecore, Infrastructure.ecore, Docker.ecore) and a dedicated 'metamodel' folder for 'OCCI meta-model + extensions'. While it also includes tooling built upon these models, its primary focus is on the definition and management of these abstract data structures, which is the core characteristic of a 'metamodelo' artifact.\"\n}\n```"
+    },
+    {
+        "owner": "kiegroup",
+        "name": "drools-lsp",
+        "url": "https://github.com/kiegroup/drools-lsp",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Syntax, Parsing, and Language Tooling\",\n    \"purpose\": \"To provide an experimental Language Server Protocol (LSP) based solution offering language support, including parsing and completion, for the Drools Rule Language (DRL) within text editors like VSCode and Neovim.\",\n    \"artifact_type\": \"dsl\",\n    \"justification\": \"The repository implements an LSP server to provide comprehensive editing support for the Drools Rule Language (DRL). This involves defining the concrete syntax through ANTLR4-based parsing and offering advanced language services like code completion, directly aligning with the concept of a 'language workbench' or 'DSL engineering' in MDE, which focuses on providing tooling for Domain-Specific Languages.\"\n}\n```"
+    },
+    {
+        "owner": "bytebase",
+        "name": "plsql-parser",
+        "url": "https://github.com/bytebase/plsql-parser",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Parsing\",\n    \"purpose\": \"This repository provides an ANTLR4-based parser for Oracle PL/SQL, enabling the lexical and syntactical analysis of PL/SQL code.\",\n    \"artifact_type\": \"parser\",\n    \"justification\": \"The README explicitly states the project is a 'parser for Oracle PL/SQL', details its reliance on ANTLR4 grammars (`.g4` files), and provides instructions for building and updating these grammar-based parser components. The primary artifact and focus are the parser implementation and its underlying grammar definitions.\"\n}\n```"
+    },
+    {
+        "owner": "google",
+        "name": "polymorphicDSL",
+        "url": "https://github.com/google/polymorphicDSL",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/api",
+            "/tutorial",
+            "/quickstart"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"DSL Engineering\",\n    \"purpose\": \"This repository provides a powerful framework to define and apply Domain Specific Languages, powered by ANTLR4, for scaling testing across various applications and platforms.\",\n    \"artifact_type\": \"dsl\",\n    \"justification\": \"The repository's title explicitly states it is a 'Polymorphic Domain Specific Language Framework'. It details the significant use of ANTLR4 for generating code from `.g4` files for both a Gherkin Parser and other test grammars, which are fundamental aspects of defining and implementing Domain Specific Languages. The description focuses on providing a framework for these language-centric activities.\"\n}\n```"
+    },
+    {
+        "owner": "funkwerk",
+        "name": "antlr-d",
+        "url": "https://github.com/funkwerk/antlr-d",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g",
+            "/runtime",
+            "/examples/"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Parsing\",\n    \"purpose\": \"To provide a full-featured port of the ANTLR 4 runtime library and parser generation tool for the D programming language.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The repository offers a 'runtime library' for ANTLR 4 specific to D, along with the 'tool to translate the syntax into D code'. These components (runtime and generator tool) are designed to be reusable by developers within their D projects for implementing parsing capabilities, fitting the definition of a library or core framework.\"\n}\n```"
+    },
+    {
+        "owner": "Universal-Variability-Language",
+        "name": "uvl-parser",
+        "url": "https://github.com/Universal-Variability-Language/uvl-parser",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Parsing and Syntax\",\n    \"purpose\": \"This repository provides the ANTLR4 grammar definition for the Universal Variability Language (UVL) and facilitates the generation and distribution of parsers for UVL across multiple programming languages.\",\n    \"artifact_type\": \"parser\",\n    \"justification\": \"The README explicitly states that the repository 'contains the ANTLR4 grammar files for UVL' and details files like `UVLParser.g4` and `UVLLexer.g4`. It also provides extensive instructions for 'Building the Parser manually' using ANTLR4 for Java, Python, and JavaScript, indicating that the core focus is on grammar definition and parser generation.\"\n}\n```"
+    },
+    {
+        "owner": "includeos",
+        "name": "NaCl",
+        "url": "https://github.com/includeos/NaCl",
+        "framework_detected": "antlr",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g4",
+            ".g"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Domain-Specific Languages (DSL), Syntax, Parsing, Transpilation\",\n    \"purpose\": \"To define and provide a basic toolchain for the NaCl configuration language, enabling users to add interfaces and firewall rules to IncludeOS services.\",\n    \"artifact_type\": \"dsl\",\n    \"justification\": \"The repository introduces 'NaCl' as a configuration language, explicitly provides its ANTLR grammar (`NaCl.g4`) for language definition, and includes a 'transpiler program' (`NaCl.py`) that utilizes this grammar to process the language, clearly positioning it as a project focused on DSL engineering rather than just a pure grammar definition.\"\n}\n```"
+    },
+    {
+        "owner": "mbeddr",
+        "name": "mps-qa",
+        "url": "https://github.com/mbeddr/mps-qa",
+        "framework_detected": "mps",
+        "classification": "dsl",
+        "artifacts_detected": [
+            "behavior.mps",
+            "typesystem.mps",
+            "editor.mps",
+            ".g",
+            "/lib"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Quality Assurance (MDE Tooling)\",\n    \"purpose\": \"This repository provides a collection of reusable plugins and tools for quality assurance within the JetBrains MPS ecosystem.\",\n    \"artifact_type\": \"libraries\",\n    \"justification\": \"The repository describes its contents as 'quality assurance tooling' for MPS, explicitly refers to its components as 'plugins', and details how to use them by downloading 'binaries' from a 'maven repository' or building from sources. This clearly indicates a collection of reusable software components designed to extend MPS functionality, fitting the 'libraries' category.\"\n}\n```"
+    },
+    {
+        "owner": "modelix",
+        "name": "modelix.mps-plugins",
+        "url": "https://github.com/modelix/modelix.mps-plugins",
+        "framework_detected": "mps",
+        "classification": "parser",
+        "artifacts_detected": [
+            ".g",
+            "/lib"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"MDE Tooling & Integration\",\n    \"purpose\": \"This repository provides a JetBrains MPS plugin to simplify the setup and integration of Modelix components for evaluation and development purposes.\",\n    \"artifact_type\": \"tutorial\",\n    \"justification\": \"The README explicitly states the plugin answers 'How do I install Modelix?', aims to 'get something running with less effort' for beginners, and is 'for evaluation and development purposes' rather than production usage. This clearly aligns with the definition of a tutorial, demo, or quickstart.\"\n}\n```"
+    },
+    {
+        "owner": "BlackBeltTechnology",
+        "name": "judo-meta-asm",
+        "url": "https://github.com/BlackBeltTechnology/judo-meta-asm",
+        "framework_detected": "emf",
+        "classification": "dsl",
+        "artifacts_detected": [
+            ".mwe2",
+            ".ecore",
+            ".genmodel",
+            ".g",
+            "/runtime"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Metamodeling\",\n    \"purpose\": \"This repository defines the Abstract Syntax Model (ASM) as a pure ECore metamodel, packaged as an Eclipse plugin or usable in a standalone OSGi environment.\",\n    \"artifact_type\": \"metamodelo\",\n    \"justification\": \"The README explicitly states 'This project contains the ASM meta model' and 'It is a pure ECore meta model', which directly matches the definition of the 'metamodelo' category focusing on defining abstract data structures and metamodels.\"\n}\n```"
+    },
+    {
+        "owner": "BlackBeltTechnology",
+        "name": "judo-meta-measure",
+        "url": "https://github.com/BlackBeltTechnology/judo-meta-measure",
+        "framework_detected": "emf",
+        "classification": "dsl",
+        "artifacts_detected": [
+            ".mwe2",
+            ".ecore",
+            ".genmodel",
+            ".g",
+            "/runtime"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Metamodeling\",\n    \"purpose\": \"To provide an abstract data model (metamodel) for units of measure, extending the SI Standard, and packaged as a reusable Eclipse plugin or OSGi bundle.\",\n    \"artifact_type\": \"metamodelo\",\n    \"justification\": \"The README explicitly states 'This repository contains the Measure meta model' in its introduction, which is the primary focus. It further details that this is an 'SI Standard model extended with descriptions', clearly indicating the definition of an abstract data structure. While it functions as an Eclipse plugin/OSGi bundle, its fundamental nature is the metamodel itself.\"\n}\n```"
+    },
+    {
+        "owner": "BlackBeltTechnology",
+        "name": "judo-meta-expression",
+        "url": "https://github.com/BlackBeltTechnology/judo-meta-expression",
+        "framework_detected": "emf",
+        "classification": "dsl",
+        "artifacts_detected": [
+            ".mwe2",
+            ".ecore",
+            ".genmodel",
+            ".g",
+            "/runtime"
+        ],
+        "abstraction_level": "PSM",
+        "gemini_analysis": "```json\n{\n    \"domain\": \"Metamodeling\",\n    \"purpose\": \"This repository provides the Expression metamodel, which defines the abstract structure for expressions used within the JUDO ecosystem, processable by various adapters.\",\n    \"artifact_type\": \"metamodelo\",\n    \"justification\": \"The README explicitly states 'This package contains the Expression meta model.' and its title 'judo-meta-expression' reinforces that its core focus is the definition of an abstract data structure or metamodel.\"\n}\n```"
+    }
+]

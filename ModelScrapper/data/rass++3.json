@@ -1,0 +1,4021 @@
+[
+    {
+        "ArtifactID": "dbeaver/dbeaver",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "dbeaver",
+        "RepositoryURL": "https://github.com/dbeaver/dbeaver",
+        "EngagementMetrics": {
+            "Commits": 27867,
+            "Contributors": 354,
+            "Stars": 47094,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-11-20T16:20:48Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/core",
+                "/api",
+                "/runtime",
+                "/lib",
+                "/plugins"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Free universal database tool and SQL client"
+    },
+    {
+        "ArtifactID": "antlr/antlr4",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "antlr",
+        "RepositoryURL": "https://github.com/antlr/antlr4",
+        "EngagementMetrics": {
+            "Commits": 9404,
+            "Contributors": 364,
+            "Stars": 18517,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-11-19T18:04:42Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/api",
+                "/runtime",
+                "/lib",
+                "/examples/",
+                "/demo"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "ANTLR (ANother Tool for Language Recognition) is a powerful parser generator for reading, processing, executing, or translating structured text or binary files."
+    },
+    {
+        "ArtifactID": "sympy/sympy",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "sympy",
+        "RepositoryURL": "https://github.com/sympy/sympy",
+        "EngagementMetrics": {
+            "Commits": 61294,
+            "Contributors": 444,
+            "Stars": 14114,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-11-20T13:05:44Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/core",
+                "/api",
+                "/lib",
+                "/tutorial"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "A computer algebra system written in pure Python"
+    },
+    {
+        "ArtifactID": "github-linguist/linguist",
+        "ArtifactType": "DSL",
+        "ModelingEcosystem": "JetBrains MPS",
+        "ConformsTo": "MPS Metamodeling Environment",
+        "View": "PIM",
+        "FileFormats": [
+            ".mps",
+            ".mpl",
+            ".msd"
+        ],
+        "ToolRequired": "JetBrains MPS",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "github-linguist",
+        "RepositoryURL": "https://github.com/github-linguist/linguist",
+        "EngagementMetrics": {
+            "Commits": 6839,
+            "Contributors": 410,
+            "Stars": 13121,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-10-13T09:36:56Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g",
+                "/core",
+                "/api",
+                "/runtime",
+                "/lib",
+                "/demo"
+            ],
+            "FrameworkDetected": "mps"
+        },
+        "Description": "Language Savant. If your repository's language is being reported incorrectly, send us a pull request!"
+    },
+    {
+        "ArtifactID": "diffplug/spotless",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "diffplug",
+        "RepositoryURL": "https://github.com/diffplug/spotless",
+        "EngagementMetrics": {
+            "Commits": 6612,
+            "Contributors": 212,
+            "Stars": 5168,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-11-20T17:56:46Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/lib",
+                "/plugins"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Keep your code spotless"
+    },
+    {
+        "ArtifactID": "apache/paimon",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "apache",
+        "RepositoryURL": "https://github.com/apache/paimon",
+        "EngagementMetrics": {
+            "Commits": 5084,
+            "Contributors": 283,
+            "Stars": 3082,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-11-20T15:06:25Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/core",
+                "/api",
+                "/runtime"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Apache Paimon is a lake format that enables building a Realtime Lakehouse Architecture with Flink and Spark for both streaming and batch operations."
+    },
+    {
+        "ArtifactID": "walmartlabs/lacinia",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "walmartlabs",
+        "RepositoryURL": "https://github.com/walmartlabs/lacinia",
+        "EngagementMetrics": {
+            "Commits": 1452,
+            "Contributors": 60,
+            "Stars": 1844,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-10-17T22:26:29Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/api",
+                "/tutorial"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "GraphQL implementation in pure Clojure"
+    },
+    {
+        "ArtifactID": "JetBrains/MPS",
+        "ArtifactType": "DSL",
+        "ModelingEcosystem": "JetBrains MPS",
+        "ConformsTo": "MPS Metamodeling Environment",
+        "View": "PIM",
+        "FileFormats": [
+            ".mps",
+            ".mpl",
+            ".msd"
+        ],
+        "ToolRequired": "JetBrains MPS",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "JetBrains",
+        "RepositoryURL": "https://github.com/JetBrains/MPS",
+        "EngagementMetrics": {
+            "Commits": 96435,
+            "Contributors": 48,
+            "Stars": 1623,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-11-20T13:21:19Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "dsl",
+            "DetectedArtifacts": [
+                "behavior.mps",
+                "typesystem.mps",
+                "editor.mps",
+                ".g",
+                "/core",
+                "/api",
+                "/runtime",
+                "/lib",
+                "/plugins",
+                "/examples/",
+                "/samples/",
+                "/demo"
+            ],
+            "FrameworkDetected": "mps"
+        },
+        "Description": "JetBrains Meta programming System"
+    },
+    {
+        "ArtifactID": "BAndysc/AvaloniaVisualBasic6",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "BAndysc",
+        "RepositoryURL": "https://github.com/BAndysc/AvaloniaVisualBasic6",
+        "EngagementMetrics": {
+            "Commits": 23,
+            "Contributors": 2,
+            "Stars": 1518,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2024-11-17T18:09:06Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/runtime"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "A recreation of the classic Visual Basic 6 IDE and language in C# with Avalonia"
+    },
+    {
+        "ArtifactID": "eclipse-langium/langium",
+        "ArtifactType": "DSL",
+        "ModelingEcosystem": "Langium",
+        "ConformsTo": "Langium Grammar",
+        "View": "PIM",
+        "FileFormats": [
+            ".langium"
+        ],
+        "ToolRequired": "Langium",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "eclipse-langium",
+        "RepositoryURL": "https://github.com/eclipse-langium/langium",
+        "EngagementMetrics": {
+            "Commits": 938,
+            "Contributors": 42,
+            "Stars": 917,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-11-20T09:16:40Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "dsl",
+            "DetectedArtifacts": [
+                ".langium",
+                "src/grammar",
+                ".g"
+            ],
+            "FrameworkDetected": "langium"
+        },
+        "Description": "Next-gen language engineering / DSL framework"
+    },
+    {
+        "ArtifactID": "tuplex/tuplex",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "tuplex",
+        "RepositoryURL": "https://github.com/tuplex/tuplex",
+        "EngagementMetrics": {
+            "Commits": 80,
+            "Contributors": 7,
+            "Stars": 816,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-08-10T03:23:55Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/core",
+                "/runtime",
+                "/lib",
+                "/plugins",
+                "/demo"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Tuplex is a parallel big data processing framework that runs data science pipelines written in Python at the speed of compiled code. Tuplex has similar Python APIs to Apache Spark or Dask, but rather than invoking the Python interpreter, Tuplex generates optimized LLVM bytecode for the given pipeline and input data set."
+    },
+    {
+        "ArtifactID": "perbone/luascript",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "perbone",
+        "RepositoryURL": "https://github.com/perbone/luascript",
+        "EngagementMetrics": {
+            "Commits": 361,
+            "Contributors": 7,
+            "Stars": 698,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2024-11-01T00:47:59Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/runtime"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Lua language support for Godot Engine"
+    },
+    {
+        "ArtifactID": "antlr/codebuff",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "antlr",
+        "RepositoryURL": "https://github.com/antlr/codebuff",
+        "EngagementMetrics": {
+            "Commits": 570,
+            "Contributors": 3,
+            "Stars": 473,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2020-08-06T16:37:21Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Language-agnostic pretty-printing through machine learning (uh, like, is this possible? YES, apparently)."
+    },
+    {
+        "ArtifactID": "tunnelvisionlabs/antlr4cs",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "tunnelvisionlabs",
+        "RepositoryURL": "https://github.com/tunnelvisionlabs/antlr4cs",
+        "EngagementMetrics": {
+            "Commits": 926,
+            "Contributors": 9,
+            "Stars": 463,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2020-12-29T22:16:13Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/runtime",
+                "/lib",
+                "/examples/"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "The original, highly-optimized C# Target for ANTLR 4"
+    },
+    {
+        "ArtifactID": "mike-lischke/vscode-antlr4",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "mike-lischke",
+        "RepositoryURL": "https://github.com/mike-lischke/vscode-antlr4",
+        "EngagementMetrics": {
+            "Commits": 382,
+            "Contributors": 26,
+            "Stars": 462,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-09-27T08:53:15Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "ANTLR4 language support for Visual Studio Code"
+    },
+    {
+        "ArtifactID": "zhegexiaohuozi/JsoupXpath",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "zhegexiaohuozi",
+        "RepositoryURL": "https://github.com/zhegexiaohuozi/JsoupXpath",
+        "EngagementMetrics": {
+            "Commits": 238,
+            "Contributors": 6,
+            "Stars": 459,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2024-11-28T10:04:51Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/core"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "\u7eafJava\u5b9e\u73b0\u7684\u652f\u6301W3C Xpath 1.0\u6807\u51c6\u8bed\u6cd5\u7684HTML\u89e3\u6790\u5668\u3002A html parser with xpath base on Jsoup and Antlr4. Maybe it is the best in java.Just try it. "
+    },
+    {
+        "ArtifactID": "mike-lischke/antlr4-c3",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "mike-lischke",
+        "RepositoryURL": "https://github.com/mike-lischke/antlr4-c3",
+        "EngagementMetrics": {
+            "Commits": 305,
+            "Contributors": 18,
+            "Stars": 457,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-10-22T15:12:59Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/lib"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "A grammar agnostic code completion engine for antlr-ng and ANTLR4 based parsers"
+    },
+    {
+        "ArtifactID": "rrevenantt/antlr4rust",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "rrevenantt",
+        "RepositoryURL": "https://github.com/rrevenantt/antlr4rust",
+        "EngagementMetrics": {
+            "Commits": 77,
+            "Contributors": 4,
+            "Stars": 447,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2022-10-23T05:21:54Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/lib"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "ANTLR4 parser generator runtime for Rust programming laguage "
+    },
+    {
+        "ArtifactID": "jszheng/py3antlr4book",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "jszheng",
+        "RepositoryURL": "https://github.com/jszheng/py3antlr4book",
+        "EngagementMetrics": {
+            "Commits": 36,
+            "Contributors": 5,
+            "Stars": 427,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2020-08-31T01:15:20Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/demo"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Covert ANTLR4 book source code to Python3 version. "
+    },
+    {
+        "ArtifactID": "chipsalliance/Surelog",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "chipsalliance",
+        "RepositoryURL": "https://github.com/chipsalliance/Surelog",
+        "EngagementMetrics": {
+            "Commits": 6751,
+            "Contributors": 31,
+            "Stars": 426,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-09-06T21:57:00Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/core",
+                "/api",
+                "/runtime",
+                "/lib",
+                "/examples/",
+                "/quickstart"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "SystemVerilog 2017 Pre-processor, Parser, Elaborator, UHDM Compiler. Provides IEEE Design/TB C/C++ VPI and Python AST & UHDM APIs. Compiles on Linux gcc, Windows msys2-gcc & msvc, OsX "
+    },
+    {
+        "ArtifactID": "Kotlin/kotlin-spec",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "Kotlin",
+        "RepositoryURL": "https://github.com/Kotlin/kotlin-spec",
+        "EngagementMetrics": {
+            "Commits": 1374,
+            "Contributors": 23,
+            "Stars": 412,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2024-11-08T16:06:15Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/api",
+                "/lib",
+                "/examples/"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Kotlin Language Specification:"
+    },
+    {
+        "ArtifactID": "augustt198/latex2sympy",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "augustt198",
+        "RepositoryURL": "https://github.com/augustt198/latex2sympy",
+        "EngagementMetrics": {
+            "Commits": 49,
+            "Contributors": 4,
+            "Stars": 405,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2016-10-05T23:30:27Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Parse LaTeX math expressions"
+    },
+    {
+        "ArtifactID": "melin/superior-sql-parser",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "melin",
+        "RepositoryURL": "https://github.com/melin/superior-sql-parser",
+        "EngagementMetrics": {
+            "Commits": 579,
+            "Contributors": 2,
+            "Stars": 384,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-09-21T13:53:01Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/demo"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "\u57fa\u4e8e antlr4 \u7684\u591a\u79cd\u6570\u636e\u5e93SQL\u89e3\u6790\u5668\uff0c\u83b7\u53d6SQL\u4e2d\u5143\u6570\u636e\uff0c\u53ef\u7528\u4e8e\u6570\u636e\u5e73\u53f0\u4ea7\u54c1\u4e2d\u7684\u591a\u4e2a\u573a\u666f\uff1addl\u8bed\u53e5\u63d0\u53d6\u5143\u6570\u636e\u3001sql \u6743\u9650\u6821\u9a8c\u3001\u8868\u7ea7\u8840\u7f18\u3001sql\u8bed\u6cd5\u6821\u9a8c\u7b49\u573a\u666f\u3002\u652f\u6301spark\u3001flink\u3001gauss\u3001starrocks\u3001Oracle\u3001MYSQL\u3001Postgresql\uff0csqlserver,\u3001db2\u7b49"
+    },
+    {
+        "ArtifactID": "DTStack/dt-sql-parser",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "DTStack",
+        "RepositoryURL": "https://github.com/DTStack/dt-sql-parser",
+        "EngagementMetrics": {
+            "Commits": 491,
+            "Contributors": 19,
+            "Stars": 362,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-11-18T08:22:55Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "dsl",
+            "DetectedArtifacts": [
+                "src/grammar",
+                ".g4",
+                ".g",
+                "/lib",
+                "/tutorial"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "SQL Parsers for BigData, built with antlr4."
+    },
+    {
+        "ArtifactID": "kotlinx/ast",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "kotlinx",
+        "RepositoryURL": "https://github.com/kotlinx/ast",
+        "EngagementMetrics": {
+            "Commits": 245,
+            "Contributors": 7,
+            "Stars": 352,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2024-08-25T00:21:34Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/lib"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Generic AST parsing library for kotlin multiplatform"
+    },
+    {
+        "ArtifactID": "iamazy/elasticsearch-sql",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "iamazy",
+        "RepositoryURL": "https://github.com/iamazy/elasticsearch-sql",
+        "EngagementMetrics": {
+            "Commits": 565,
+            "Contributors": 5,
+            "Stars": 348,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2022-11-26T09:06:29Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/core"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "parse sql into elasticsearch dsl with antlr4"
+    },
+    {
+        "ArtifactID": "adamyedidia/parsimony",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "adamyedidia",
+        "RepositoryURL": "https://github.com/adamyedidia/parsimony",
+        "EngagementMetrics": {
+            "Commits": 52,
+            "Contributors": 1,
+            "Stars": 343,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2018-04-19T03:16:00Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "No description"
+    },
+    {
+        "ArtifactID": "Nic30/hdlConvertor",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "Nic30",
+        "RepositoryURL": "https://github.com/Nic30/hdlConvertor",
+        "EngagementMetrics": {
+            "Commits": 1880,
+            "Contributors": 22,
+            "Stars": 309,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-06-30T16:05:06Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/lib"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Fast Verilog/VHDL parser preprocessor and code generator for C++/Python based on ANTLR4"
+    },
+    {
+        "ArtifactID": "tser-project/tser",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "tser-project",
+        "RepositoryURL": "https://github.com/tser-project/tser",
+        "EngagementMetrics": {
+            "Commits": 16,
+            "Contributors": 1,
+            "Stars": 303,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2020-09-04T03:35:28Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "dsl",
+            "DetectedArtifacts": [
+                "src/grammar",
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "A TypeScript virtual machine."
+    },
+    {
+        "ArtifactID": "gabriele-tomassetti/antlr-mega-tutorial",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "gabriele-tomassetti",
+        "RepositoryURL": "https://github.com/gabriele-tomassetti/antlr-mega-tutorial",
+        "EngagementMetrics": {
+            "Commits": 27,
+            "Contributors": 4,
+            "Stars": 279,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2021-05-12T05:43:07Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/examples/"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "This is the companion repository of the ANTLR Mega Tutorial, that will explain everything you need to know to use ANTLR."
+    },
+    {
+        "ArtifactID": "zwhe99/DeepMath",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "zwhe99",
+        "RepositoryURL": "https://github.com/zwhe99/DeepMath",
+        "EngagementMetrics": {
+            "Commits": 103,
+            "Contributors": 2,
+            "Stars": 273,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-06-04T18:45:41Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/core"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "A Large-Scale, Challenging, Decontaminated, and Verifiable Mathematical Dataset for Advancing Reasoning"
+    },
+    {
+        "ArtifactID": "odiszapc/nginx-java-parser",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "odiszapc",
+        "RepositoryURL": "https://github.com/odiszapc/nginx-java-parser",
+        "EngagementMetrics": {
+            "Commits": 51,
+            "Contributors": 3,
+            "Stars": 269,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2024-02-05T23:03:47Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Nginx configuration parser based on ANTLR4 grammar"
+    },
+    {
+        "ArtifactID": "porla/porla",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "porla",
+        "RepositoryURL": "https://github.com/porla/porla",
+        "EngagementMetrics": {
+            "Commits": 690,
+            "Contributors": 8,
+            "Stars": 259,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-09-23T13:59:09Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/plugins"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "A high performance BitTorrent client for servers and seedboxes."
+    },
+    {
+        "ArtifactID": "akitaonrails/akitando_episode_0118",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "akitaonrails",
+        "RepositoryURL": "https://github.com/akitaonrails/akitando_episode_0118",
+        "EngagementMetrics": {
+            "Commits": 42,
+            "Contributors": 2,
+            "Stars": 251,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2022-05-18T01:13:41Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "examples to illustrate my YouTube channel's episode 118 about Databases"
+    },
+    {
+        "ArtifactID": "sriniiyer/codenn",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "sriniiyer",
+        "RepositoryURL": "https://github.com/sriniiyer/codenn",
+        "EngagementMetrics": {
+            "Commits": 15,
+            "Contributors": 2,
+            "Stars": 239,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2017-05-11T18:55:34Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/api",
+                "/examples/"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Summarizing Source Code using a Neural Attention Model - CODENN"
+    },
+    {
+        "ArtifactID": "Barro/compiler-warnings",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "Barro",
+        "RepositoryURL": "https://github.com/Barro/compiler-warnings",
+        "EngagementMetrics": {
+            "Commits": 70,
+            "Contributors": 2,
+            "Stars": 236,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2019-03-20T21:29:27Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "A list of compiler warning flags for different GCC and clang versions"
+    },
+    {
+        "ArtifactID": "nikunjy/rules",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "nikunjy",
+        "RepositoryURL": "https://github.com/nikunjy/rules",
+        "EngagementMetrics": {
+            "Commits": 44,
+            "Contributors": 3,
+            "Stars": 235,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2024-02-14T23:25:36Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Generic Rules engine in golang "
+    },
+    {
+        "ArtifactID": "antlr/antlr4-intellij-adaptor",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "antlr",
+        "RepositoryURL": "https://github.com/antlr/antlr4-intellij-adaptor",
+        "EngagementMetrics": {
+            "Commits": 98,
+            "Contributors": 7,
+            "Stars": 221,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2024-12-10T19:56:32Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "A library to support the use of ANTLR grammars in jetbrains IDE plugins for building custom languages."
+    },
+    {
+        "ArtifactID": "bkiers/tiny-language-antlr4",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "bkiers",
+        "RepositoryURL": "https://github.com/bkiers/tiny-language-antlr4",
+        "EngagementMetrics": {
+            "Commits": 40,
+            "Contributors": 4,
+            "Stars": 209,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2020-12-24T06:56:23Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Tiny Language with ANTLR 4"
+    },
+    {
+        "ArtifactID": "antlr4ide/antlr4ide",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "antlr4ide",
+        "RepositoryURL": "https://github.com/antlr4ide/antlr4ide",
+        "EngagementMetrics": {
+            "Commits": 219,
+            "Contributors": 9,
+            "Stars": 208,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2022-10-27T22:19:16Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "dsl",
+            "DetectedArtifacts": [
+                ".xtext",
+                ".mwe2",
+                ".g4",
+                ".g",
+                "/runtime",
+                "/lib"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "ANTLR 4 IDE for Eclipse"
+    },
+    {
+        "ArtifactID": "porcelli/plsql-parser",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "porcelli",
+        "RepositoryURL": "https://github.com/porcelli/plsql-parser",
+        "EngagementMetrics": {
+            "Commits": 88,
+            "Contributors": 4,
+            "Stars": 201,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2021-02-17T20:38:35Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "ANTLR PL/SQL 11g parser"
+    },
+    {
+        "ArtifactID": "testsmt/yinyang",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "testsmt",
+        "RepositoryURL": "https://github.com/testsmt/yinyang",
+        "EngagementMetrics": {
+            "Commits": 529,
+            "Contributors": 8,
+            "Stars": 193,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2023-02-20T15:36:27Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/core"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "A fuzzing framework for SMT solvers"
+    },
+    {
+        "ArtifactID": "uwol/proleap-cobol-parser",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "uwol",
+        "RepositoryURL": "https://github.com/uwol/proleap-cobol-parser",
+        "EngagementMetrics": {
+            "Commits": 702,
+            "Contributors": 6,
+            "Stars": 177,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2024-04-01T14:31:16Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/lib"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "ProLeap ANTLR4-based parser for COBOL"
+    },
+    {
+        "ArtifactID": "yona-lang/yona",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "yona-lang",
+        "RepositoryURL": "https://github.com/yona-lang/yona",
+        "EngagementMetrics": {
+            "Commits": 512,
+            "Contributors": 3,
+            "Stars": 132,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2022-09-21T11:55:55Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/runtime",
+                "/lib"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Yona is a modern take on a dynamic general-purpose programming language with advanced functional programming, minimalistic ML-like syntax, strict evaluation, for GraalVM polyglot virtual machine (VM)."
+    },
+    {
+        "ArtifactID": "bkiers/sqlite-parser",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "bkiers",
+        "RepositoryURL": "https://github.com/bkiers/sqlite-parser",
+        "EngagementMetrics": {
+            "Commits": 32,
+            "Contributors": 3,
+            "Stars": 129,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2022-10-19T08:31:41Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "An ANTLR4 grammar for SQLite statements."
+    },
+    {
+        "ArtifactID": "solidityj/solidity-antlr4",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "solidityj",
+        "RepositoryURL": "https://github.com/solidityj/solidity-antlr4",
+        "EngagementMetrics": {
+            "Commits": 82,
+            "Contributors": 3,
+            "Stars": 123,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2019-09-10T19:14:36Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Solidity grammar for ANTLR4"
+    },
+    {
+        "ArtifactID": "mike-lischke/antlr4ng",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "mike-lischke",
+        "RepositoryURL": "https://github.com/mike-lischke/antlr4ng",
+        "EngagementMetrics": {
+            "Commits": 283,
+            "Contributors": 9,
+            "Stars": 122,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-07-05T11:27:38Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/api",
+                "/runtime"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Next Generation TypeScript runtime for ANTLR4"
+    },
+    {
+        "ArtifactID": "antlr/jetbrains-plugin-sample",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "antlr",
+        "RepositoryURL": "https://github.com/antlr/jetbrains-plugin-sample",
+        "EngagementMetrics": {
+            "Commits": 32,
+            "Contributors": 4,
+            "Stars": 120,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2019-02-14T20:52:59Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "A sample plugin for jetbrains IDEs that uses an ANTLR grammar for a nontrivial custom language."
+    },
+    {
+        "ArtifactID": "bkiers/rrd-antlr4",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "bkiers",
+        "RepositoryURL": "https://github.com/bkiers/rrd-antlr4",
+        "EngagementMetrics": {
+            "Commits": 44,
+            "Contributors": 6,
+            "Stars": 110,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2023-06-21T05:03:08Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Railroad Diagrams for ANTLR 4 grammar rules."
+    },
+    {
+        "ArtifactID": "carocad/parcera",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "carocad",
+        "RepositoryURL": "https://github.com/carocad/parcera",
+        "EngagementMetrics": {
+            "Commits": 582,
+            "Contributors": 2,
+            "Stars": 107,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2021-01-03T19:57:46Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/core"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Grammar-based Clojure(script) parser"
+    },
+    {
+        "ArtifactID": "daniellansun/groovy-parser",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "daniellansun",
+        "RepositoryURL": "https://github.com/daniellansun/groovy-parser",
+        "EngagementMetrics": {
+            "Commits": 981,
+            "Contributors": 9,
+            "Stars": 104,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-05-04T16:16:11Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/core"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Yet another new parser for Groovy programming language(project code: Parrot)"
+    },
+    {
+        "ArtifactID": "antlr-ng/antlr-ng",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "antlr-ng",
+        "RepositoryURL": "https://github.com/antlr-ng/antlr-ng",
+        "EngagementMetrics": {
+            "Commits": 303,
+            "Contributors": 4,
+            "Stars": 103,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-10-13T08:25:23Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "dsl",
+            "DetectedArtifacts": [
+                "src/grammar",
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "The next generation of ANTLR, a powerful parser generator for reading, processing, executing, or translating structured text or binary files."
+    },
+    {
+        "ArtifactID": "lensesio/kafka-connect-query-language",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "lensesio",
+        "RepositoryURL": "https://github.com/lensesio/kafka-connect-query-language",
+        "EngagementMetrics": {
+            "Commits": 275,
+            "Contributors": 8,
+            "Stars": 99,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2024-01-09T09:45:52Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/examples/"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "SQL for Kafka Connectors"
+    },
+    {
+        "ArtifactID": "rhu1/fgg",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "rhu1",
+        "RepositoryURL": "https://github.com/rhu1/fgg",
+        "EngagementMetrics": {
+            "Commits": 782,
+            "Contributors": 4,
+            "Stars": 98,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2021-03-05T17:02:21Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Mini prototype of FG/FGG/FGR in Go."
+    },
+    {
+        "ArtifactID": "kaby76/AntlrVSIX",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "kaby76",
+        "RepositoryURL": "https://github.com/kaby76/AntlrVSIX",
+        "EngagementMetrics": {
+            "Commits": 1425,
+            "Contributors": 2,
+            "Stars": 95,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2022-04-28T15:25:01Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "AntlrVSIX is a language server for use with Visual Studio 2019, Visual Studio Code, and Gnu Emacs to support Antlr, Bison, and W3C EBNF grammars. In addition to the IDE extensions provided here, a command-line tool is available to refactor grammars in order to make them cleaner, more readable, and more efficient."
+    },
+    {
+        "ArtifactID": "kaby76/Trash",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "kaby76",
+        "RepositoryURL": "https://github.com/kaby76/Trash",
+        "EngagementMetrics": {
+            "Commits": 2319,
+            "Contributors": 4,
+            "Stars": 94,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-11-10T16:43:37Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "dsl",
+            "DetectedArtifacts": [
+                ".xtext",
+                "src/grammar",
+                ".g4",
+                ".g",
+                "/core",
+                "/api",
+                "/lib",
+                "/examples/",
+                "/samples/",
+                "/demo"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Toolkit for grammars"
+    },
+    {
+        "ArtifactID": "yshavit/antlr-denter",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "yshavit",
+        "RepositoryURL": "https://github.com/yshavit/antlr-denter",
+        "EngagementMetrics": {
+            "Commits": 105,
+            "Contributors": 4,
+            "Stars": 92,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2023-04-02T18:24:55Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/core",
+                "/lib",
+                "/examples/"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Helper class for generating python-like INDENT/DEDENT tokens with antlr4."
+    },
+    {
+        "ArtifactID": "kaby76/Antlr4BuildTasks",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "kaby76",
+        "RepositoryURL": "https://github.com/kaby76/Antlr4BuildTasks",
+        "EngagementMetrics": {
+            "Commits": 435,
+            "Contributors": 10,
+            "Stars": 89,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-10-28T07:17:37Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Third-party build tool for 'Official' Antlr4 tool and runtime parsers using .Net. Drop-in replacement for 'Antlr4cs' Antlr4 tool and build rules."
+    },
+    {
+        "ArtifactID": "scassandra/scassandra-server",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "scassandra",
+        "RepositoryURL": "https://github.com/scassandra/scassandra-server",
+        "EngagementMetrics": {
+            "Commits": 614,
+            "Contributors": 17,
+            "Stars": 87,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2019-04-15T07:11:06Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/plugins"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Stubbed Cassandra"
+    },
+    {
+        "ArtifactID": "uwol/proleap-vb6-parser",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "uwol",
+        "RepositoryURL": "https://github.com/uwol/proleap-vb6-parser",
+        "EngagementMetrics": {
+            "Commits": 291,
+            "Contributors": 2,
+            "Stars": 86,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2024-04-01T14:31:19Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/api"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "ProLeap ANTLR4-based parser for Visual Basic 6.0"
+    },
+    {
+        "ArtifactID": "FIXTradingCommunity/fix-orchestra",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "FIXTradingCommunity",
+        "RepositoryURL": "https://github.com/FIXTradingCommunity/fix-orchestra",
+        "EngagementMetrics": {
+            "Commits": 507,
+            "Contributors": 10,
+            "Stars": 79,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2024-12-20T19:56:46Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/examples/"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Machine readable rules of engagement"
+    },
+    {
+        "ArtifactID": "matthewbdwyer/tipc",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "matthewbdwyer",
+        "RepositoryURL": "https://github.com/matthewbdwyer/tipc",
+        "EngagementMetrics": {
+            "Commits": 497,
+            "Contributors": 11,
+            "Stars": 72,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2024-09-11T19:34:17Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "A compiler from TIP to llvm bitcode"
+    },
+    {
+        "ArtifactID": "dzieje-khorinis/DaedalusCompiler",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "dzieje-khorinis",
+        "RepositoryURL": "https://github.com/dzieje-khorinis/DaedalusCompiler",
+        "EngagementMetrics": {
+            "Commits": 357,
+            "Contributors": 6,
+            "Stars": 72,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2020-07-21T21:26:33Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Daedalus ( Gothic I & II scripting language ) Compiler to DAT"
+    },
+    {
+        "ArtifactID": "OP-TED/eForms-SDK",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "OP-TED",
+        "RepositoryURL": "https://github.com/OP-TED/eForms-SDK",
+        "EngagementMetrics": {
+            "Commits": 2166,
+            "Contributors": 11,
+            "Stars": 70,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-10-31T16:06:50Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "eForms is the notification standard for public procurement procedures in the EU. The eForms SDK is a collection of resources providing the foundation for building eForms applications."
+    },
+    {
+        "ArtifactID": "beda-software/fhirpath-py",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "beda-software",
+        "RepositoryURL": "https://github.com/beda-software/fhirpath-py",
+        "EngagementMetrics": {
+            "Commits": 424,
+            "Contributors": 14,
+            "Stars": 70,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-08-01T17:05:11Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "FHIRPath implementation in Python."
+    },
+    {
+        "ArtifactID": "Riverside-Software/sonar-openedge",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "Riverside-Software",
+        "RepositoryURL": "https://github.com/Riverside-Software/sonar-openedge",
+        "EngagementMetrics": {
+            "Commits": 1606,
+            "Contributors": 6,
+            "Stars": 69,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-11-16T16:03:36Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/core",
+                "/api",
+                "/lib",
+                "/plugins"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "CABL (Code Analyzer for ABL in SonarQube) - ABL ANTLR4 Parser"
+    },
+    {
+        "ArtifactID": "No-SF-Work/ayame",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "No-SF-Work",
+        "RepositoryURL": "https://github.com/No-SF-Work/ayame",
+        "EngagementMetrics": {
+            "Commits": 1291,
+            "Contributors": 4,
+            "Stars": 64,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2021-08-19T11:12:54Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/lib"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "A compiler that translates SysY (a subset of C language) into ARMv7a, implemented in Java15."
+    },
+    {
+        "ArtifactID": "teverett/antlr4example",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "teverett",
+        "RepositoryURL": "https://github.com/teverett/antlr4example",
+        "EngagementMetrics": {
+            "Commits": 149,
+            "Contributors": 3,
+            "Stars": 63,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-11-15T20:00:38Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "A Java example for Antlr4"
+    },
+    {
+        "ArtifactID": "alibaba/rsqldb",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "alibaba",
+        "RepositoryURL": "https://github.com/alibaba/rsqldb",
+        "EngagementMetrics": {
+            "Commits": 216,
+            "Contributors": 6,
+            "Stars": 62,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2023-03-14T01:19:58Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/api"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "No description"
+    },
+    {
+        "ArtifactID": "thautwarm/Typed-BNF",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "thautwarm",
+        "RepositoryURL": "https://github.com/thautwarm/Typed-BNF",
+        "EngagementMetrics": {
+            "Commits": 132,
+            "Contributors": 2,
+            "Stars": 62,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-03-15T10:54:14Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "dsl",
+            "DetectedArtifacts": [
+                "src/grammar",
+                ".g4",
+                ".g",
+                "/api"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Statically typed BNF with semantic actions; safe parser generator applicable to every programming language. "
+    },
+    {
+        "ArtifactID": "protostuff/protostuff-compiler",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "protostuff",
+        "RepositoryURL": "https://github.com/protostuff/protostuff-compiler",
+        "EngagementMetrics": {
+            "Commits": 471,
+            "Contributors": 6,
+            "Stars": 60,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2021-08-06T14:11:35Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/core"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Protobuf parser, java code and documentation generator"
+    },
+    {
+        "ArtifactID": "emweb/jwt",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "emweb",
+        "RepositoryURL": "https://github.com/emweb/jwt",
+        "EngagementMetrics": {
+            "Commits": 708,
+            "Contributors": 3,
+            "Stars": 59,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-10-16T09:35:48Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/lib",
+                "/plugins",
+                "/examples/"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Java Web Toolkit"
+    },
+    {
+        "ArtifactID": "IrisShaders/glsl-transformer",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "IrisShaders",
+        "RepositoryURL": "https://github.com/IrisShaders/glsl-transformer",
+        "EngagementMetrics": {
+            "Commits": 1260,
+            "Contributors": 3,
+            "Stars": 56,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-08-23T16:21:25Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/runtime",
+                "/demo"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "An advanced Java library for GLSL parsing, program transformation, and printing that uses ANTLR4. Developed and maintained by @douira."
+    },
+    {
+        "ArtifactID": "UnBCIC-TP2/Oberon-Scala",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "UnBCIC-TP2",
+        "RepositoryURL": "https://github.com/UnBCIC-TP2/Oberon-Scala",
+        "EngagementMetrics": {
+            "Commits": 962,
+            "Contributors": 76,
+            "Stars": 55,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2024-07-01T21:53:52Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/core",
+                "/plugins",
+                "/tutorial"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "An implementation of the Oberon language using Scala"
+    },
+    {
+        "ArtifactID": "paleo/typeonly",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "paleo",
+        "RepositoryURL": "https://github.com/paleo/typeonly",
+        "EngagementMetrics": {
+            "Commits": 196,
+            "Contributors": 2,
+            "Stars": 54,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-08-06T11:08:17Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/api",
+                "/tutorial"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Parses typing definitions from TypeScript and brings them at runtime."
+    },
+    {
+        "ArtifactID": "cronburg/antlr-haskell",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "cronburg",
+        "RepositoryURL": "https://github.com/cronburg/antlr-haskell",
+        "EngagementMetrics": {
+            "Commits": 236,
+            "Contributors": 6,
+            "Stars": 52,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2021-01-16T02:16:05Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/core"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "A language parsing quasiquoter for Haskell based heavily on ANTLR4."
+    },
+    {
+        "ArtifactID": "aichipdesign/chipgptft",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "aichipdesign",
+        "RepositoryURL": "https://github.com/aichipdesign/chipgptft",
+        "EngagementMetrics": {
+            "Commits": 12,
+            "Contributors": 3,
+            "Stars": 52,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2024-12-17T09:10:23Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Data is all you need: Finetuning LLMs for Chip Design via an Automated design-data augmentation framework (DAC 2024)"
+    },
+    {
+        "ArtifactID": "nawforce/apex-parser",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "nawforce",
+        "RepositoryURL": "https://github.com/nawforce/apex-parser",
+        "EngagementMetrics": {
+            "Commits": 115,
+            "Contributors": 6,
+            "Stars": 50,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2024-03-01T19:33:33Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Salesforce Apex language parser for Java and Javascript."
+    },
+    {
+        "ArtifactID": "antlr/Antlr4Formatter",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "antlr",
+        "RepositoryURL": "https://github.com/antlr/Antlr4Formatter",
+        "EngagementMetrics": {
+            "Commits": 529,
+            "Contributors": 7,
+            "Stars": 48,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-11-15T20:09:25Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Formatter for ANTLR 4 grammars"
+    },
+    {
+        "ArtifactID": "NougatCA/SPT-Code",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "NougatCA",
+        "RepositoryURL": "https://github.com/NougatCA/SPT-Code",
+        "EngagementMetrics": {
+            "Commits": 275,
+            "Contributors": 42,
+            "Stars": 48,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-11-19T13:16:38Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/examples/"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "No description"
+    },
+    {
+        "ArtifactID": "1c-syntax/bsl-parser",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "1c-syntax",
+        "RepositoryURL": "https://github.com/1c-syntax/bsl-parser",
+        "EngagementMetrics": {
+            "Commits": 734,
+            "Contributors": 16,
+            "Stars": 44,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-11-19T04:17:40Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f \u043f\u0430\u0440\u0441\u0435\u0440\u043e\u0432 \u044f\u0437\u044b\u043a\u0430 1\u0421 (BSL) \u0432 \u0444\u043e\u0440\u043c\u0430\u0442\u0435 ANTLR4."
+    },
+    {
+        "ArtifactID": "thmeitz/ksqldb-go",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "thmeitz",
+        "RepositoryURL": "https://github.com/thmeitz/ksqldb-go",
+        "EngagementMetrics": {
+            "Commits": 194,
+            "Contributors": 6,
+            "Stars": 43,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-10-26T16:49:05Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "ksqldb-go client"
+    },
+    {
+        "ArtifactID": "karlstroetmann/Formal-Languages",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "karlstroetmann",
+        "RepositoryURL": "https://github.com/karlstroetmann/Formal-Languages",
+        "EngagementMetrics": {
+            "Commits": 793,
+            "Contributors": 11,
+            "Stars": 42,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-11-19T14:19:46Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/examples/"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Lecture notes and examples for my class on formal languages and compilers."
+    },
+    {
+        "ArtifactID": "chequer-io/qsi",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "chequer-io",
+        "RepositoryURL": "https://github.com/chequer-io/qsi",
+        "EngagementMetrics": {
+            "Commits": 1936,
+            "Contributors": 12,
+            "Stars": 40,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-07-13T05:48:46Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Query Structure Interface"
+    },
+    {
+        "ArtifactID": "FirelyTeam/firely-cql-sdk",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "FirelyTeam",
+        "RepositoryURL": "https://github.com/FirelyTeam/firely-cql-sdk",
+        "EngagementMetrics": {
+            "Commits": 3658,
+            "Contributors": 26,
+            "Stars": 40,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-10-27T17:10:03Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/core",
+                "/runtime",
+                "/lib",
+                "/demo"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "This is NCQA's and Firely's official support SDK for working with CQL (Clinical Query Language) on the Microsoft .NET (dotnet) platform. It contains an engine for executing CQL/ELM, by turning the contents of CQL or ELM files into a .NET assembly so it can be called statically."
+    },
+    {
+        "ArtifactID": "ZenUml/core",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "ZenUml",
+        "RepositoryURL": "https://github.com/ZenUml/core",
+        "EngagementMetrics": {
+            "Commits": 1160,
+            "Contributors": 5,
+            "Stars": 38,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2023-03-02T09:52:53Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/core",
+                "/api",
+                "/runtime",
+                "/plugins",
+                "/demo",
+                "/tutorial"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "The ZenUML renderer"
+    },
+    {
+        "ArtifactID": "gty111/PTX-EMU",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "gty111",
+        "RepositoryURL": "https://github.com/gty111/PTX-EMU",
+        "EngagementMetrics": {
+            "Commits": 58,
+            "Contributors": 2,
+            "Stars": 38,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-04-25T13:55:02Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/runtime",
+                "/lib",
+                "/demo"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "PTX-EMU is a simple emulator for CUDA program."
+    },
+    {
+        "ArtifactID": "m-zakeri/CodART",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "m-zakeri",
+        "RepositoryURL": "https://github.com/m-zakeri/CodART",
+        "EngagementMetrics": {
+            "Commits": 1254,
+            "Contributors": 35,
+            "Stars": 37,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-10-11T09:15:02Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/core",
+                "/runtime",
+                "/tutorial"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Source Code Automated Refactoring Toolkit "
+    },
+    {
+        "ArtifactID": "pzbitskiy/tealang",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "pzbitskiy",
+        "RepositoryURL": "https://github.com/pzbitskiy/tealang",
+        "EngagementMetrics": {
+            "Commits": 157,
+            "Contributors": 5,
+            "Stars": 37,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2022-04-10T03:56:05Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Tealang - high level language for Algorand ASC1 and TEAL"
+    },
+    {
+        "ArtifactID": "rail5/bashpp",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "rail5",
+        "RepositoryURL": "https://github.com/rail5/bashpp",
+        "EngagementMetrics": {
+            "Commits": 1253,
+            "Contributors": 2,
+            "Stars": 37,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-10-05T14:02:51Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/core"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Bash++: Bash with classes"
+    },
+    {
+        "ArtifactID": "mcchatman8009/antlr4-tool",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "mcchatman8009",
+        "RepositoryURL": "https://github.com/mcchatman8009/antlr4-tool",
+        "EngagementMetrics": {
+            "Commits": 92,
+            "Contributors": 9,
+            "Stars": 36,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2020-08-02T00:13:57Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "A useful Antlr4 tool with full TypeScript support"
+    },
+    {
+        "ArtifactID": "vaclav/voicemenu",
+        "ArtifactType": "DSL",
+        "ModelingEcosystem": "JetBrains MPS",
+        "ConformsTo": "MPS Metamodeling Environment",
+        "View": "PIM",
+        "FileFormats": [
+            ".mps",
+            ".mpl",
+            ".msd"
+        ],
+        "ToolRequired": "JetBrains MPS",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "vaclav",
+        "RepositoryURL": "https://github.com/vaclav/voicemenu",
+        "EngagementMetrics": {
+            "Commits": 725,
+            "Contributors": 8,
+            "Stars": 35,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-11-11T17:43:21Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "dsl",
+            "DetectedArtifacts": [
+                "behavior.mps",
+                "typesystem.mps",
+                "editor.mps",
+                ".g",
+                "/runtime",
+                "/lib",
+                "/samples/"
+            ],
+            "FrameworkDetected": "mps"
+        },
+        "Description": "A voice menu language and simulator using JetBrains MPS"
+    },
+    {
+        "ArtifactID": "JetBrains/mps-coderules",
+        "ArtifactType": "DSL",
+        "ModelingEcosystem": "JetBrains MPS",
+        "ConformsTo": "MPS Metamodeling Environment",
+        "View": "PIM",
+        "FileFormats": [
+            ".mps",
+            ".mpl",
+            ".msd"
+        ],
+        "ToolRequired": "JetBrains MPS",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "JetBrains",
+        "RepositoryURL": "https://github.com/JetBrains/mps-coderules",
+        "EngagementMetrics": {
+            "Commits": 3604,
+            "Contributors": 6,
+            "Stars": 32,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2024-10-04T11:02:04Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "dsl",
+            "DetectedArtifacts": [
+                "behavior.mps",
+                "typesystem.mps",
+                "editor.mps",
+                ".g",
+                "/core",
+                "/runtime",
+                "/lib"
+            ],
+            "FrameworkDetected": "mps"
+        },
+        "Description": "Type checking and logical inference for JetBrains MPS"
+    },
+    {
+        "ArtifactID": "chubbymaggie/fast",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "chubbymaggie",
+        "RepositoryURL": "https://github.com/chubbymaggie/fast",
+        "EngagementMetrics": {
+            "Commits": 724,
+            "Contributors": 3,
+            "Stars": 32,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2017-11-04T07:31:22Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/core",
+                "/api",
+                "/lib",
+                "/tutorial"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Flat Abstract Syntax Tree"
+    },
+    {
+        "ArtifactID": "51WORLD/osc2checker",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "51WORLD",
+        "RepositoryURL": "https://github.com/51WORLD/osc2checker",
+        "EngagementMetrics": {
+            "Commits": 11,
+            "Contributors": 3,
+            "Stars": 31,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-06-12T06:33:06Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "osc2checker is a grammar check tool for ASAM OpenSCENARIO 2 scenario files. "
+    },
+    {
+        "ArtifactID": "TypeFox/langium-sql",
+        "ArtifactType": "DSL",
+        "ModelingEcosystem": "Langium",
+        "ConformsTo": "Langium Grammar",
+        "View": "PIM",
+        "FileFormats": [
+            ".langium"
+        ],
+        "ToolRequired": "Langium",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "TypeFox",
+        "RepositoryURL": "https://github.com/TypeFox/langium-sql",
+        "EngagementMetrics": {
+            "Commits": 48,
+            "Contributors": 5,
+            "Stars": 30,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2024-03-19T13:48:52Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "dsl",
+            "DetectedArtifacts": [
+                ".langium",
+                ".g"
+            ],
+            "FrameworkDetected": "langium"
+        },
+        "Description": "Language server for SQL in Langium"
+    },
+    {
+        "ArtifactID": "SOM-Research/DescribeML",
+        "ArtifactType": "DSL",
+        "ModelingEcosystem": "Langium",
+        "ConformsTo": "Langium Grammar",
+        "View": "PIM",
+        "FileFormats": [
+            ".langium"
+        ],
+        "ToolRequired": "Langium",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "SOM-Research",
+        "RepositoryURL": "https://github.com/SOM-Research/DescribeML",
+        "EngagementMetrics": {
+            "Commits": 170,
+            "Contributors": 3,
+            "Stars": 30,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2023-09-15T08:13:21Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "dsl",
+            "DetectedArtifacts": [
+                ".langium",
+                ".g"
+            ],
+            "FrameworkDetected": "langium"
+        },
+        "Description": "DescribeML is a Visual Studio Code language plug-in to describe machine-learning datasets in a structured format. Build better data describing the composition, provenance and social concerns of your dataset."
+    },
+    {
+        "ArtifactID": "urbanopt/modelica-builder",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "urbanopt",
+        "RepositoryURL": "https://github.com/urbanopt/modelica-builder",
+        "EngagementMetrics": {
+            "Commits": 210,
+            "Contributors": 4,
+            "Stars": 29,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-11-17T02:39:39Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/api"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Programmatically modify exiting Modelica files using Python!"
+    },
+    {
+        "ArtifactID": "apex-dev-tools/apex-parser",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "apex-dev-tools",
+        "RepositoryURL": "https://github.com/apex-dev-tools/apex-parser",
+        "EngagementMetrics": {
+            "Commits": 285,
+            "Contributors": 8,
+            "Stars": 27,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-08-14T15:09:52Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Salesforce Apex/SOQL/SOSL language parser"
+    },
+    {
+        "ArtifactID": "eclipse-emf/org.eclipse.emf",
+        "ArtifactType": "Metamodel",
+        "ModelingEcosystem": "Eclipse EMF",
+        "ConformsTo": "Ecore Metamodel",
+        "View": "PIM",
+        "FileFormats": [
+            ".ecore",
+            ".genmodel"
+        ],
+        "ToolRequired": "Eclipse EMF",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "eclipse-emf",
+        "RepositoryURL": "https://github.com/eclipse-emf/org.eclipse.emf",
+        "EngagementMetrics": {
+            "Commits": 10419,
+            "Contributors": 38,
+            "Stars": 26,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-11-06T14:54:24Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "dsl",
+            "DetectedArtifacts": [
+                ".xtext",
+                ".mwe2",
+                ".ecore",
+                ".genmodel",
+                ".g",
+                "/core",
+                "/runtime",
+                "/lib",
+                "/plugins",
+                "/examples/",
+                "/tutorial"
+            ],
+            "FrameworkDetected": "emf"
+        },
+        "Description": "No description"
+    },
+    {
+        "ArtifactID": "MDEGroup/MDEForge",
+        "ArtifactType": "Metamodel",
+        "ModelingEcosystem": "Eclipse EMF",
+        "ConformsTo": "Ecore Metamodel",
+        "View": "PIM",
+        "FileFormats": [
+            ".ecore",
+            ".genmodel"
+        ],
+        "ToolRequired": "Eclipse EMF",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "MDEGroup",
+        "RepositoryURL": "https://github.com/MDEGroup/MDEForge",
+        "EngagementMetrics": {
+            "Commits": 594,
+            "Contributors": 7,
+            "Stars": 24,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2019-07-16T09:18:24Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "metamodel",
+            "DetectedArtifacts": [
+                ".ecore",
+                ".genmodel",
+                ".g",
+                "/core",
+                "/api",
+                "/lib",
+                "/plugins",
+                "/examples/",
+                "/samples/",
+                "/demo",
+                "/tutorial"
+            ],
+            "FrameworkDetected": "emf"
+        },
+        "Description": "MDEForge is an extensible modeling framework specifically conceived to support for discovery and reuse of existing modeling artefacts. MDEForge consists of a set of core services that permit to store and manage typical modeling artefacts and tools. Atop of such services it is possible to develop extensions adding new functionalities to the platform. All the services can be used by means of a Web access and by a REST API that permits to adopt the available model management tools as software-as-a-service."
+    },
+    {
+        "ArtifactID": "JetBrains/fbme",
+        "ArtifactType": "DSL",
+        "ModelingEcosystem": "JetBrains MPS",
+        "ConformsTo": "MPS Metamodeling Environment",
+        "View": "PIM",
+        "FileFormats": [
+            ".mps",
+            ".mpl",
+            ".msd"
+        ],
+        "ToolRequired": "JetBrains MPS",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "JetBrains",
+        "RepositoryURL": "https://github.com/JetBrains/fbme",
+        "EngagementMetrics": {
+            "Commits": 802,
+            "Contributors": 6,
+            "Stars": 23,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2024-12-20T05:11:35Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "dsl",
+            "DetectedArtifacts": [
+                "behavior.mps",
+                "typesystem.mps",
+                "editor.mps",
+                ".g4",
+                ".g",
+                "/runtime",
+                "/lib",
+                "/plugins",
+                "/samples/"
+            ],
+            "FrameworkDetected": "mps"
+        },
+        "Description": "IDE for IEC 61499 built on top of JetBrains MPS"
+    },
+    {
+        "ArtifactID": "HL7/FHIRPath",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "HL7",
+        "RepositoryURL": "https://github.com/HL7/FHIRPath",
+        "EngagementMetrics": {
+            "Commits": 479,
+            "Contributors": 4,
+            "Stars": 20,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-11-16T21:48:09Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/lib",
+                "/examples/"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Fluent Path Specification"
+    },
+    {
+        "ArtifactID": "antlr/antlr4test-maven-plugin",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "antlr",
+        "RepositoryURL": "https://github.com/antlr/antlr4test-maven-plugin",
+        "EngagementMetrics": {
+            "Commits": 302,
+            "Contributors": 9,
+            "Stars": 19,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2023-01-04T16:21:43Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/examples/"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "A maven plugin used to test the grammars-v4 repo grammars"
+    },
+    {
+        "ArtifactID": "ostis-dev/sc-machine",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "ostis-dev",
+        "RepositoryURL": "https://github.com/ostis-dev/sc-machine",
+        "EngagementMetrics": {
+            "Commits": 1064,
+            "Contributors": 10,
+            "Stars": 18,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2021-10-13T10:39:44Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/runtime"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Software implementation of semantic network storage and processing"
+    },
+    {
+        "ArtifactID": "antlr/website-antlr4",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "antlr",
+        "RepositoryURL": "https://github.com/antlr/website-antlr4",
+        "EngagementMetrics": {
+            "Commits": 313,
+            "Contributors": 11,
+            "Stars": 17,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2024-08-03T19:13:49Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/api",
+                "/runtime",
+                "/lib",
+                "/plugins",
+                "/examples/",
+                "/demo"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "The ANTLR 4 Website"
+    },
+    {
+        "ArtifactID": "occiware/ecore",
+        "ArtifactType": "Metamodel",
+        "ModelingEcosystem": "Eclipse EMF",
+        "ConformsTo": "Ecore Metamodel",
+        "View": "PIM",
+        "FileFormats": [
+            ".ecore",
+            ".genmodel"
+        ],
+        "ToolRequired": "Eclipse EMF",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "occiware",
+        "RepositoryURL": "https://github.com/occiware/ecore",
+        "EngagementMetrics": {
+            "Commits": 1944,
+            "Contributors": 10,
+            "Stars": 14,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2017-09-19T15:10:43Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "dsl",
+            "DetectedArtifacts": [
+                ".xtext",
+                ".mwe2",
+                ".ecore",
+                ".genmodel",
+                ".g",
+                "/core",
+                "/runtime",
+                "/lib",
+                "/examples/",
+                "/demo"
+            ],
+            "FrameworkDetected": "emf"
+        },
+        "Description": "Ecore meta-model and examples"
+    },
+    {
+        "ArtifactID": "kiegroup/drools-lsp",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "kiegroup",
+        "RepositoryURL": "https://github.com/kiegroup/drools-lsp",
+        "EngagementMetrics": {
+            "Commits": 87,
+            "Contributors": 9,
+            "Stars": 14,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-05-28T05:20:13Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "No description"
+    },
+    {
+        "ArtifactID": "bytebase/plsql-parser",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "bytebase",
+        "RepositoryURL": "https://github.com/bytebase/plsql-parser",
+        "EngagementMetrics": {
+            "Commits": 66,
+            "Contributors": 6,
+            "Stars": 13,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-02-18T04:16:36Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "The parser for Oracle 11g/12c PL/SQL. It is based on the https://github.com/antlr/antlr4 and use the grammar https://github.com/antlr/grammars-v4/tree/master/sql/plsql."
+    },
+    {
+        "ArtifactID": "google/polymorphicDSL",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "google",
+        "RepositoryURL": "https://github.com/google/polymorphicDSL",
+        "EngagementMetrics": {
+            "Commits": 284,
+            "Contributors": 7,
+            "Stars": 12,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-09-24T22:09:40Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/api",
+                "/tutorial",
+                "/quickstart"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "No description"
+    },
+    {
+        "ArtifactID": "funkwerk/antlr-d",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "funkwerk",
+        "RepositoryURL": "https://github.com/funkwerk/antlr-d",
+        "EngagementMetrics": {
+            "Commits": 741,
+            "Contributors": 5,
+            "Stars": 12,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2021-05-12T21:31:56Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g",
+                "/runtime",
+                "/examples/"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "Moved"
+    },
+    {
+        "ArtifactID": "Universal-Variability-Language/uvl-parser",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "Universal-Variability-Language",
+        "RepositoryURL": "https://github.com/Universal-Variability-Language/uvl-parser",
+        "EngagementMetrics": {
+            "Commits": 265,
+            "Contributors": 9,
+            "Stars": 11,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-09-30T14:13:51Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "UVL (Universal Variability Language) is a concise and extensible language for modeling variability in software product lines. This repository is holding the grammar definition."
+    },
+    {
+        "ArtifactID": "lbdudc/dsl-xpert",
+        "ArtifactType": "DSL",
+        "ModelingEcosystem": "Langium",
+        "ConformsTo": "Langium Grammar",
+        "View": "PIM",
+        "FileFormats": [
+            ".langium"
+        ],
+        "ToolRequired": "Langium",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "lbdudc",
+        "RepositoryURL": "https://github.com/lbdudc/dsl-xpert",
+        "EngagementMetrics": {
+            "Commits": 139,
+            "Contributors": 3,
+            "Stars": 11,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-07-31T10:00:48Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "dsl",
+            "DetectedArtifacts": [
+                ".langium",
+                ".g",
+                "/lib",
+                "/plugins"
+            ],
+            "FrameworkDetected": "langium"
+        },
+        "Description": "This tool provides a web interface to define domain-specific languages and uses large language models (LLM) to interact with those grammars via chat."
+    },
+    {
+        "ArtifactID": "includeos/NaCl",
+        "ArtifactType": "Grammar",
+        "ModelingEcosystem": "ANTLR",
+        "ConformsTo": "ANTLR Grammar",
+        "View": "PSM",
+        "FileFormats": [
+            ".g4"
+        ],
+        "ToolRequired": "ANTLR",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "includeos",
+        "RepositoryURL": "https://github.com/includeos/NaCl",
+        "EngagementMetrics": {
+            "Commits": 297,
+            "Contributors": 5,
+            "Stars": 10,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2019-04-11T13:36:33Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g4",
+                ".g"
+            ],
+            "FrameworkDetected": "antlr"
+        },
+        "Description": "No description"
+    },
+    {
+        "ArtifactID": "mbeddr/mps-qa",
+        "ArtifactType": "DSL",
+        "ModelingEcosystem": "JetBrains MPS",
+        "ConformsTo": "MPS Metamodeling Environment",
+        "View": "PIM",
+        "FileFormats": [
+            ".mps",
+            ".mpl",
+            ".msd"
+        ],
+        "ToolRequired": "JetBrains MPS",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "mbeddr",
+        "RepositoryURL": "https://github.com/mbeddr/mps-qa",
+        "EngagementMetrics": {
+            "Commits": 1014,
+            "Contributors": 23,
+            "Stars": 9,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-11-19T14:10:42Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "dsl",
+            "DetectedArtifacts": [
+                "behavior.mps",
+                "typesystem.mps",
+                "editor.mps",
+                ".g",
+                "/lib"
+            ],
+            "FrameworkDetected": "mps"
+        },
+        "Description": "Quality Assurance Tooling for Jetbrains' MPS"
+    },
+    {
+        "ArtifactID": "jpipe-mcscert/jpipe-vscode",
+        "ArtifactType": "DSL",
+        "ModelingEcosystem": "Langium",
+        "ConformsTo": "Langium Grammar",
+        "View": "PIM",
+        "FileFormats": [
+            ".langium"
+        ],
+        "ToolRequired": "Langium",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "jpipe-mcscert",
+        "RepositoryURL": "https://github.com/jpipe-mcscert/jpipe-vscode",
+        "EngagementMetrics": {
+            "Commits": 482,
+            "Contributors": 5,
+            "Stars": 3,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-06-21T16:22:08Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "dsl",
+            "DetectedArtifacts": [
+                ".langium",
+                ".g"
+            ],
+            "FrameworkDetected": "langium"
+        },
+        "Description": "VS Code extension"
+    },
+    {
+        "ArtifactID": "yash-a-18/aurora-langium",
+        "ArtifactType": "DSL",
+        "ModelingEcosystem": "Langium",
+        "ConformsTo": "Langium Grammar",
+        "View": "PIM",
+        "FileFormats": [
+            ".langium"
+        ],
+        "ToolRequired": "Langium",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "yash-a-18",
+        "RepositoryURL": "https://github.com/yash-a-18/aurora-langium",
+        "EngagementMetrics": {
+            "Commits": 110,
+            "Contributors": 3,
+            "Stars": 1,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-10-22T15:14:53Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "dsl",
+            "DetectedArtifacts": [
+                ".langium",
+                ".g"
+            ],
+            "FrameworkDetected": "langium"
+        },
+        "Description": "No description"
+    },
+    {
+        "ArtifactID": "modelix/modelix.mps-plugins",
+        "ArtifactType": "DSL",
+        "ModelingEcosystem": "JetBrains MPS",
+        "ConformsTo": "MPS Metamodeling Environment",
+        "View": "PIM",
+        "FileFormats": [
+            ".mps",
+            ".mpl",
+            ".msd"
+        ],
+        "ToolRequired": "JetBrains MPS",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "modelix",
+        "RepositoryURL": "https://github.com/modelix/modelix.mps-plugins",
+        "EngagementMetrics": {
+            "Commits": 299,
+            "Contributors": 5,
+            "Stars": 0,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-10-02T16:45:48Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "parser",
+            "DetectedArtifacts": [
+                ".g",
+                "/lib"
+            ],
+            "FrameworkDetected": "mps"
+        },
+        "Description": "Plugin for JetBrains MPS that integrates all relevant Modelix components"
+    },
+    {
+        "ArtifactID": "BlackBeltTechnology/judo-meta-asm",
+        "ArtifactType": "Metamodel",
+        "ModelingEcosystem": "Eclipse EMF",
+        "ConformsTo": "Ecore Metamodel",
+        "View": "PIM",
+        "FileFormats": [
+            ".ecore",
+            ".genmodel"
+        ],
+        "ToolRequired": "Eclipse EMF",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "BlackBeltTechnology",
+        "RepositoryURL": "https://github.com/BlackBeltTechnology/judo-meta-asm",
+        "EngagementMetrics": {
+            "Commits": 469,
+            "Contributors": 13,
+            "Stars": 0,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-10-22T12:49:08Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "dsl",
+            "DetectedArtifacts": [
+                ".mwe2",
+                ".ecore",
+                ".genmodel",
+                ".g",
+                "/runtime"
+            ],
+            "FrameworkDetected": "emf"
+        },
+        "Description": "ECore Architecture Specific Model Extensions."
+    },
+    {
+        "ArtifactID": "BlackBeltTechnology/judo-meta-measure",
+        "ArtifactType": "Metamodel",
+        "ModelingEcosystem": "Eclipse EMF",
+        "ConformsTo": "Ecore Metamodel",
+        "View": "PIM",
+        "FileFormats": [
+            ".ecore",
+            ".genmodel"
+        ],
+        "ToolRequired": "Eclipse EMF",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "BlackBeltTechnology",
+        "RepositoryURL": "https://github.com/BlackBeltTechnology/judo-meta-measure",
+        "EngagementMetrics": {
+            "Commits": 246,
+            "Contributors": 10,
+            "Stars": 0,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-10-22T12:51:01Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "dsl",
+            "DetectedArtifacts": [
+                ".mwe2",
+                ".ecore",
+                ".genmodel",
+                ".g",
+                "/runtime"
+            ],
+            "FrameworkDetected": "emf"
+        },
+        "Description": "Measure Ecore model for JUDO"
+    },
+    {
+        "ArtifactID": "BlackBeltTechnology/judo-meta-expression",
+        "ArtifactType": "Metamodel",
+        "ModelingEcosystem": "Eclipse EMF",
+        "ConformsTo": "Ecore Metamodel",
+        "View": "PIM",
+        "FileFormats": [
+            ".ecore",
+            ".genmodel"
+        ],
+        "ToolRequired": "Eclipse EMF",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "BlackBeltTechnology",
+        "RepositoryURL": "https://github.com/BlackBeltTechnology/judo-meta-expression",
+        "EngagementMetrics": {
+            "Commits": 995,
+            "Contributors": 13,
+            "Stars": 0,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-10-22T13:16:50Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "dsl",
+            "DetectedArtifacts": [
+                ".mwe2",
+                ".ecore",
+                ".genmodel",
+                ".g",
+                "/runtime"
+            ],
+            "FrameworkDetected": "emf"
+        },
+        "Description": "Expression Ecore model for JUDO"
+    },
+    {
+        "ArtifactID": "YourHarbour/GLSP-Langium-Healthcare",
+        "ArtifactType": "DSL",
+        "ModelingEcosystem": "Langium",
+        "ConformsTo": "Langium Grammar",
+        "View": "PIM",
+        "FileFormats": [
+            ".langium"
+        ],
+        "ToolRequired": "Langium",
+        "Domain": "unknown",
+        "Purpose": "unknown",
+        "Owner": "YourHarbour",
+        "RepositoryURL": "https://github.com/YourHarbour/GLSP-Langium-Healthcare",
+        "EngagementMetrics": {
+            "Commits": 239,
+            "Contributors": 10,
+            "Stars": 0,
+            "CreatedAt": "1970-01-01T00:00:00Z",
+            "LastCommitDate": "2025-11-09T20:41:53Z"
+        },
+        "AdditionalInsights": {
+            "ClassifierCategory": "dsl",
+            "DetectedArtifacts": [
+                ".langium",
+                ".ecore",
+                ".genmodel",
+                ".g"
+            ],
+            "FrameworkDetected": "langium"
+        },
+        "Description": "No description"
+    }
+]
