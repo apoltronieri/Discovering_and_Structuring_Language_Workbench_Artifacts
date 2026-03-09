@@ -3,10 +3,10 @@ import base64
 import json
 import google.generativeai as genai
 from urllib.parse import urlparse
+import os 
 
-GITHUB_TOKEN = "REMOVED_TOKEN"
-GEMINI_API_KEY = "AIzaSyA1fT7Dp23V8983uHLRq7WuPckVpUS54HY"
-
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN2")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 def setup_gemini():
     genai.configure(api_key=GEMINI_API_KEY)
     return genai.GenerativeModel('gemini-2.5-flash')
